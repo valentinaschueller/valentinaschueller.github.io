@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Valentina Schüller</title>
-    <link>https://valentinaschueller.github.io/</link>
-      <atom:link href="https://valentinaschueller.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Valentina Schüller</description>
+    <title>climate science | Valentina Schüller</title>
+    <link>https://valentinaschueller.github.io/tag/climate-science/</link>
+      <atom:link href="https://valentinaschueller.github.io/tag/climate-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>climate science</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Oct 2020 16:47:47 +0200</lastBuildDate>
     <image>
       <url>https://valentinaschueller.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Valentina Schüller</title>
-      <link>https://valentinaschueller.github.io/</link>
+      <title>climate science</title>
+      <link>https://valentinaschueller.github.io/tag/climate-science/</link>
     </image>
     
     <item>
@@ -25,14 +25,6 @@
       <link>https://valentinaschueller.github.io/publication/bsc-thesis/</link>
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://valentinaschueller.github.io/publication/bsc-thesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://valentinaschueller.github.io/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://valentinaschueller.github.io/cv/</guid>
       <description></description>
     </item>
     

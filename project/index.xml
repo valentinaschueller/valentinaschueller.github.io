@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Valentina Schüller</title>
-    <link>https://valentinaschueller.github.io/author/valentina-schuller/</link>
-      <atom:link href="https://valentinaschueller.github.io/author/valentina-schuller/index.xml" rel="self" type="application/rss+xml" />
-    <description>Valentina Schüller</description>
+    <title>Projects | Valentina Schüller</title>
+    <link>https://valentinaschueller.github.io/project/</link>
+      <atom:link href="https://valentinaschueller.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Oct 2020 16:47:47 +0200</lastBuildDate>
     <image>
       <url>https://valentinaschueller.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Valentina Schüller</title>
-      <link>https://valentinaschueller.github.io/author/valentina-schuller/</link>
+      <title>Projects</title>
+      <link>https://valentinaschueller.github.io/project/</link>
     </image>
     
     <item>

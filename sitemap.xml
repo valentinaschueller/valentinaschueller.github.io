@@ -3,11 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://valentinaschueller.github.io/</loc>
+    <loc>https://valentinaschueller.github.io/authors/</loc>
+    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://valentinaschueller.github.io/authors/</loc>
+    <loc>https://valentinaschueller.github.io/tag/climate-science/</loc>
+    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://valentinaschueller.github.io/project/ece_monitoring/</loc>
+    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://valentinaschueller.github.io/project/</loc>
+    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://valentinaschueller.github.io/tags/</loc>
+    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://valentinaschueller.github.io/</loc>
+    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://valentinaschueller.github.io/author/valentina-schuller/</loc>
+    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://valentinaschueller.github.io/publication-type/7/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://valentinaschueller.github.io/publication/bsc-thesis/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://valentinaschueller.github.io/publication_types/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://valentinaschueller.github.io/publication/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://valentinaschueller.github.io/author/valentina-schuller/</loc>
+    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://valentinaschueller.github.io/cv/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -19,23 +76,7 @@
   </url>
   
   <url>
-    <loc>https://valentinaschueller.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://valentinaschueller.github.io/publication/</loc>
-  </url>
-  
-  <url>
     <loc>https://valentinaschueller.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://valentinaschueller.github.io/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://valentinaschueller.github.io/author/valentina-schuller/</loc>
   </url>
   
 </urlset>
