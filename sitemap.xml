@@ -1,82 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://valentinaschueller.github.io/authors/</loc>
-    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-11T16:47:47+02:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/project/bgce_infineon/</loc>
+    <lastmod>2021-09-11T16:47:47+02:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/c-/</loc>
+    <lastmod>2021-09-11T16:47:47+02:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/fortran/</loc>
+    <lastmod>2021-09-11T16:47:47+02:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/parallel-in-time/</loc>
+    <lastmod>2021-09-11T16:47:47+02:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/project/</loc>
+    <lastmod>2021-09-11T16:47:47+02:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/project/sweet/</loc>
+    <lastmod>2021-09-11T16:47:47+02:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tags/</loc>
+    <lastmod>2021-09-11T16:47:47+02:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/</loc>
+    <lastmod>2021-09-11T16:47:47+02:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/author/valentina-schuller/</loc>
+    <lastmod>2021-09-11T16:47:47+02:00</lastmod>
+  </url><url>
     <loc>https://valentinaschueller.github.io/tag/climate-science/</loc>
     <lastmod>2020-10-11T16:47:47+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://valentinaschueller.github.io/project/ece_monitoring/</loc>
     <lastmod>2020-10-11T16:47:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://valentinaschueller.github.io/project/</loc>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/python/</loc>
     <lastmod>2020-10-11T16:47:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://valentinaschueller.github.io/tags/</loc>
-    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://valentinaschueller.github.io/</loc>
-    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://valentinaschueller.github.io/author/valentina-schuller/</loc>
-    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://valentinaschueller.github.io/publication-type/7/</loc>
     <lastmod>2020-09-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://valentinaschueller.github.io/publication/bsc-thesis/</loc>
     <lastmod>2020-09-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://valentinaschueller.github.io/publication_types/</loc>
     <lastmod>2020-09-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://valentinaschueller.github.io/publication/</loc>
     <lastmod>2020-09-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://valentinaschueller.github.io/author/valentina-schuller/</loc>
     <lastmod>2020-09-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://valentinaschueller.github.io/cv/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://valentinaschueller.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://valentinaschueller.github.io/post/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://valentinaschueller.github.io/talk/</loc>
   </url>
-  
 </urlset>

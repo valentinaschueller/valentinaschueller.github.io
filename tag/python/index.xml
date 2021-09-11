@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python | Valentina Schüller</title>
+    <link>https://valentinaschueller.github.io/tag/python/</link>
+      <atom:link href="https://valentinaschueller.github.io/tag/python/index.xml" rel="self" type="application/rss+xml" />
+    <description>Python</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Oct 2020 16:47:47 +0200</lastBuildDate>
+    <image>
+      <url>https://valentinaschueller.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Python</title>
+      <link>https://valentinaschueller.github.io/tag/python/</link>
+    </image>
+    
+    <item>
+      <title>EC-Earth 4 Monitoring</title>
+      <link>https://valentinaschueller.github.io/project/ece_monitoring/</link>
+      <pubDate>Sun, 11 Oct 2020 16:47:47 +0200</pubDate>
+      <guid>https://valentinaschueller.github.io/project/ece_monitoring/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
