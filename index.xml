@@ -13,6 +13,15 @@
     </image>
     
     <item>
+      <title>Error Reduction in Time-Coupled Numerical Simulations</title>
+      <link>https://valentinaschueller.github.io/project/fsi_coupling/</link>
+      <pubDate>Mon, 04 Oct 2021 16:47:47 +0200</pubDate>
+      <guid>https://valentinaschueller.github.io/project/fsi_coupling/</guid>
+      <description>&lt;p&gt;Started off by a seminar course, I&amp;rsquo;m working on simple but effective convergence analyses of coupling schemes for multiphysics simulations, together with &lt;a href=&#34;https://www.in.tum.de/en/i05/people/personen/benjamin-rueth/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benjamin Rodenberg&lt;/a&gt;. More coming soon :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Simulating a Planet</title>
       <link>https://valentinaschueller.github.io/project/ferienakademie/</link>
       <pubDate>Mon, 04 Oct 2021 16:47:47 +0200</pubDate>
