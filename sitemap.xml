@@ -2,13 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://valentinaschueller.github.io/talk/gacm_2022/</loc>
+    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/authors/</loc>
+    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/energy-conservation/</loc>
+    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/order-degradation/</loc>
+    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/strang-splitting/</loc>
+    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tags/</loc>
+    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/talk/</loc>
+    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/author/valentina-schuller/</loc>
+    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/</loc>
+    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/waveform-iterations/</loc>
+    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+  </url><url>
     <loc>https://valentinaschueller.github.io/publication-type/1/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://valentinaschueller.github.io/publication/fsi-paper/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/authors/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://valentinaschueller.github.io/author/benjamin-rodenberg/</loc>
@@ -29,9 +56,6 @@
     <loc>https://valentinaschueller.github.io/tag/multiphysics/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/order-degradation/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://valentinaschueller.github.io/publication_types/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -39,21 +63,6 @@
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://valentinaschueller.github.io/tag/python/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/tag/strang-splitting/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/tags/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/author/valentina-schuller/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/tag/waveform-iterations/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://valentinaschueller.github.io/project/</loc>
@@ -101,7 +110,5 @@
     <loc>https://valentinaschueller.github.io/categories/</loc>
   </url><url>
     <loc>https://valentinaschueller.github.io/post/</loc>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/talk/</loc>
   </url>
 </urlset>

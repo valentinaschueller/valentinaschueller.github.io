@@ -5,12 +5,20 @@
     <link>https://valentinaschueller.github.io/</link>
       <atom:link href="https://valentinaschueller.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Valentina Schüller</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 22 Sep 2022 15:50:00 +0000</lastBuildDate>
     <image>
       <url>https://valentinaschueller.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Valentina Schüller</title>
       <link>https://valentinaschueller.github.io/</link>
     </image>
+    
+    <item>
+      <title>A Simple Test Case for Error Reduction of Black-Box Coupling Schemes</title>
+      <link>https://valentinaschueller.github.io/talk/gacm_2022/</link>
+      <pubDate>Thu, 22 Sep 2022 15:50:00 +0000</pubDate>
+      <guid>https://valentinaschueller.github.io/talk/gacm_2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Simple Test Case for Convergence Order in Time and Energy Conservation of Black-Box Coupling Schemes</title>

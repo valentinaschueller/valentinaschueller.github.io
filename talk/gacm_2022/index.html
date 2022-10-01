@@ -34,10 +34,12 @@
   
     
   
-  <meta name="description" content="As part of the [Bavarian Graduate School of Computational Engineering (BGCE)](https://www.bgce.de/), we worked on the parallelization and scalability of a circuit simulator for [Infineon Technologies](https://www.infineon.com/).">
+  <meta name="description" content="Black-box coupling libraries such as preCICE support sophisticated methods to enable accurate and efficient multiphysics simulations (e.g., regarding data mapping or coupling scheme acceleration). However, sticking to standard coupling schemes can easily decrease the achievable convergence order of the numerical solution, specifically with respect to time integration; a phenomenon we call order degradation. To understand these effects (and possible solutions), we want to study specifically the interaction of coupling schemes and time integration methods. &lt;p&gt;
+In this talk, we present and analyze a simple test case of two masses connected with springs; we use it to isolate the impact of the coupling scheme on the overall accuracy and energy conservation of a partitioned simulation. We show issues arising for combinations of traditionally used coupling schemes and common time integration methods. We demonstrate that these two components interact with each other, which can lead to surprisingly good and bad results. Continuing the analysis, we confirm how Strang splitting and waveform iterations can reduce or even prevent order degradation. Additionally, we analyze their impact on energy conservation. &lt;p&gt;
+Both Strang splitting and waveform iterations are discussed with respect to their applicability in full-scale multiphysics applications. We finally give an outlook on an extension of the test case to study the convergence of waveform iterations for subcycling and multirate time stepping. This enables us to also cover applications with a multiscale characteristic.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://valentinaschueller.github.io/project/bgce_infineon/">
+  <link rel="alternate" hreflang="en-us" href="https://valentinaschueller.github.io/talk/gacm_2022/">
 
   
 
@@ -257,7 +259,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://valentinaschueller.github.io/project/bgce_infineon/">
+  <link rel="canonical" href="https://valentinaschueller.github.io/talk/gacm_2022/">
 
   
   
@@ -267,31 +269,31 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Valentina Schüller">
-  <meta property="og:url" content="https://valentinaschueller.github.io/project/bgce_infineon/">
-  <meta property="og:title" content="BGCE Honor&#39;s Project | Valentina Schüller">
-  <meta property="og:description" content="As part of the [Bavarian Graduate School of Computational Engineering (BGCE)](https://www.bgce.de/), we worked on the parallelization and scalability of a circuit simulator for [Infineon Technologies](https://www.infineon.com/)."><meta property="og:image" content="https://valentinaschueller.github.io/project/bgce_infineon/featured.png">
-  <meta property="twitter:image" content="https://valentinaschueller.github.io/project/bgce_infineon/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://valentinaschueller.github.io/talk/gacm_2022/">
+  <meta property="og:title" content="A Simple Test Case for Error Reduction of Black-Box Coupling Schemes | Valentina Schüller">
+  <meta property="og:description" content="Black-box coupling libraries such as preCICE support sophisticated methods to enable accurate and efficient multiphysics simulations (e.g., regarding data mapping or coupling scheme acceleration). However, sticking to standard coupling schemes can easily decrease the achievable convergence order of the numerical solution, specifically with respect to time integration; a phenomenon we call order degradation. To understand these effects (and possible solutions), we want to study specifically the interaction of coupling schemes and time integration methods. &lt;p&gt;
+In this talk, we present and analyze a simple test case of two masses connected with springs; we use it to isolate the impact of the coupling scheme on the overall accuracy and energy conservation of a partitioned simulation. We show issues arising for combinations of traditionally used coupling schemes and common time integration methods. We demonstrate that these two components interact with each other, which can lead to surprisingly good and bad results. Continuing the analysis, we confirm how Strang splitting and waveform iterations can reduce or even prevent order degradation. Additionally, we analyze their impact on energy conservation. &lt;p&gt;
+Both Strang splitting and waveform iterations are discussed with respect to their applicability in full-scale multiphysics applications. We finally give an outlook on an extension of the test case to study the convergence of waveform iterations for subcycling and multirate time stepping. This enables us to also cover applications with a multiscale characteristic."><meta property="og:image" content="https://valentinaschueller.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://valentinaschueller.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-09-11T16:47:47&#43;02:00">
+      <meta property="article:published_time" content="2022-10-01T15:30:29&#43;02:00">
     
-    <meta property="article:modified_time" content="2021-09-11T16:47:47&#43;02:00">
+    <meta property="article:modified_time" content="2022-09-22T15:50:00&#43;00:00">
   
 
   
 
 
+
+  
     
-
-
-
-
-
 
 
 
@@ -299,41 +301,44 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://valentinaschueller.github.io/project/bgce_infineon/"
+    "@id": "https://valentinaschueller.github.io/talk/gacm_2022/"
   },
-  "headline": "BGCE Honor's Project",
+  "name": "A Simple Test Case for Error Reduction of Black-Box Coupling Schemes",
   
-  "image": [
-    "https://valentinaschueller.github.io/project/bgce_infineon/featured.png"
-  ],
+  "location": {
+    "@type": "Place",
+    "name": "Essen, Germany",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "",
+      "postalCode": "",
+      "addressRegion": "",
+      "addressCountry": ""
+    }
+    
+  },
   
-  "datePublished": "2021-09-11T16:47:47+02:00",
-  "dateModified": "2021-09-11T16:47:47+02:00",
   
-  "author": {
+  "startDate": "2022-09-22T15:50:00Z",
+  
+  "endDate": "2022-09-22T16:10:00Z",
+  
+  
+  "performer": {
     "@type": "Person",
     "name": "Valentina Schüller"
   },
   
-  "publisher": {
-    "@type": "Organization",
-    "name": "Valentina Schüller",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://valentinaschueller.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
-    }
-  },
-  "description": "As part of the [Bavarian Graduate School of Computational Engineering (BGCE)](https://www.bgce.de/), we worked on the parallelization and scalability of a circuit simulator for [Infineon Technologies](https://www.infineon.com/)."
+  "description": "Black-box coupling libraries such as preCICE support sophisticated methods to enable accurate and efficient multiphysics simulations (e.g., regarding data mapping or coupling scheme acceleration). However, sticking to standard coupling schemes can easily decrease the achievable convergence order of the numerical solution, specifically with respect to time integration; a phenomenon we call order degradation. To understand these effects (and possible solutions), we want to study specifically the interaction of coupling schemes and time integration methods. \u003cp\u003e\nIn this talk, we present and analyze a simple test case of two masses connected with springs; we use it to isolate the impact of the coupling scheme on the overall accuracy and energy conservation of a partitioned simulation. We show issues arising for combinations of traditionally used coupling schemes and common time integration methods. We demonstrate that these two components interact with each other, which can lead to surprisingly good and bad results. Continuing the analysis, we confirm how Strang splitting and waveform iterations can reduce or even prevent order degradation. Additionally, we analyze their impact on energy conservation. \u003cp\u003e\nBoth Strang splitting and waveform iterations are discussed with respect to their applicability in full-scale multiphysics applications. We finally give an outlook on an extension of the test case to study the convergence of waveform iterations for subcycling and multirate time stepping. This enables us to also cover applications with a multiscale characteristic."
 }
 </script>
 
   
 
-  
-
 
   
 
@@ -344,7 +349,7 @@
 
 
 
-  <title>BGCE Honor&#39;s Project | Valentina Schüller</title>
+  <title>A Simple Test Case for Error Reduction of Black-Box Coupling Schemes | Valentina Schüller</title>
 
 </head>
 
@@ -639,7 +644,7 @@
 
 
 
-  <article class="article article-project">
+  <div class="pub">
 
   
 
@@ -654,24 +659,18 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
   
-
-
+  
 <div class="article-container pt-3">
-  <h1>BGCE Honor&#39;s Project</h1>
+  <h1>A Simple Test Case for Error Reduction of Black-Box Coupling Schemes</h1>
 
   
 
   
+    
 
 
 <div class="article-metadata">
@@ -690,14 +689,6 @@
   
 
   
-  <span class="article-date">
-    
-    
-      
-    
-    Sep 11, 2021
-  </span>
-  
 
   
 
@@ -712,7 +703,7 @@
 
 </div>
 
-  
+    
 
 
 
@@ -728,8 +719,6 @@
 
 <div class="btn-links mb-3">
   
-  <a class="btn btn-outline-primary my-1" href="https://www.bgce.de/" target="_blank" rel="noopener">Go to Project Site</a>
-  
   
 
 
@@ -749,32 +738,99 @@
 
 
 
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/fsi_coupling/">
+    Project
+  </a>
+  
 
 
 
 
 
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 338px; max-height: 149px;">
-  <div style="position: relative">
-    <img src="/project/bgce_infineon/featured.png" alt="" class="featured-image">
+  
+  
     
-  </div>
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="/talk/gacm_2022/presentation.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
+
+  
 </div>
 
 
 
   <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract"><p>Black-box coupling libraries such as preCICE support sophisticated methods to enable accurate and efficient multiphysics simulations (e.g., regarding data mapping or coupling scheme acceleration). However, sticking to standard coupling schemes can easily decrease the achievable convergence order of the numerical solution, specifically with respect to time integration; a phenomenon we call order degradation. To understand these effects (and possible solutions), we want to study specifically the interaction of coupling schemes and time integration methods. <p>
+In this talk, we present and analyze a simple test case of two masses connected with springs; we use it to isolate the impact of the coupling scheme on the overall accuracy and energy conservation of a partitioned simulation. We show issues arising for combinations of traditionally used coupling schemes and common time integration methods. We demonstrate that these two components interact with each other, which can lead to surprisingly good and bad results. Continuing the analysis, we confirm how Strang splitting and waveform iterations can reduce or even prevent order degradation. Additionally, we analyze their impact on energy conservation. <p>
+Both Strang splitting and waveform iterations are discussed with respect to their applicability in full-scale multiphysics applications. We finally give an outlook on an extension of the test case to study the convergence of waveform iterations for subcycling and multirate time stepping. This enables us to also cover applications with a multiscale characteristic.</p>
+</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Sep 22, 2022 15:50 &mdash; 16:10
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://colloquia.gacm.de/" target="_blank" rel="noopener">
+            9th GACM Colloquium 2022
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Essen, Germany</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9"></div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
 
     <div class="article-style">
       
@@ -789,7 +845,13 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/c-/">C&#43;&#43;</a>
+  <a class="badge badge-light" href="/tag/waveform-iterations/">waveform iterations</a>
+  
+  <a class="badge badge-light" href="/tag/strang-splitting/">Strang splitting</a>
+  
+  <a class="badge badge-light" href="/tag/energy-conservation/">energy conservation</a>
+  
+  <a class="badge badge-light" href="/tag/order-degradation/">order degradation</a>
   
 </div>
 
@@ -806,7 +868,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://valentinaschueller.github.io/project/bgce_infineon/&amp;text=BGCE%20Honor&amp;#39;s%20Project" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://valentinaschueller.github.io/talk/gacm_2022/&amp;text=A%20Simple%20Test%20Case%20for%20Error%20Reduction%20of%20Black-Box%20Coupling%20Schemes" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -819,7 +881,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://valentinaschueller.github.io/project/bgce_infineon/&amp;t=BGCE%20Honor&amp;#39;s%20Project" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://valentinaschueller.github.io/talk/gacm_2022/&amp;t=A%20Simple%20Test%20Case%20for%20Error%20Reduction%20of%20Black-Box%20Coupling%20Schemes" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -832,7 +894,7 @@
       
       
       <li>
-        <a href="mailto:?subject=BGCE%20Honor&amp;#39;s%20Project&amp;body=https://valentinaschueller.github.io/project/bgce_infineon/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=A%20Simple%20Test%20Case%20for%20Error%20Reduction%20of%20Black-Box%20Coupling%20Schemes&amp;body=https://valentinaschueller.github.io/talk/gacm_2022/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -845,7 +907,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://valentinaschueller.github.io/project/bgce_infineon/&amp;title=BGCE%20Honor&amp;#39;s%20Project" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://valentinaschueller.github.io/talk/gacm_2022/&amp;title=A%20Simple%20Test%20Case%20for%20Error%20Reduction%20of%20Black-Box%20Coupling%20Schemes" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -858,7 +920,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=BGCE%20Honor&amp;#39;s%20Project%20https://valentinaschueller.github.io/project/bgce_infineon/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=A%20Simple%20Test%20Case%20for%20Error%20Reduction%20of%20Black-Box%20Coupling%20Schemes%20https://valentinaschueller.github.io/talk/gacm_2022/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -871,7 +933,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://valentinaschueller.github.io/project/bgce_infineon/&amp;title=BGCE%20Honor&amp;#39;s%20Project" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://valentinaschueller.github.io/talk/gacm_2022/&amp;title=A%20Simple%20Test%20Case%20for%20Error%20Reduction%20of%20Black-Box%20Coupling%20Schemes" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -895,96 +957,6 @@
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-      
-      <a href="https://valentinaschueller.github.io"><img class="avatar mr-3 avatar-circle" src="/author/valentina-schuller/avatar_hu82f84979f721afcba616686448b8fc9d_444610_270x270_fill_q90_lanczos_center.jpg" alt="Valentina Schüller"></a>
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://valentinaschueller.github.io">Valentina Schüller</a></h5>
-      
-      <p class="card-text">My research interests include high-performance computing and climate science.</p>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:valentina.schueller@tum.de" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/valentinaschueller" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.linkedin.com/in/valentina-sch%C3%BCller-315646116/" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/files/cv.pdf" >
-        <i class="fab fa-cv"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
-  </div>
-
 
   
 
@@ -1005,7 +977,9 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/project/sweet/">SWEET x LibPFASST</a></li>
+      <li><a href="/publication/fsi-paper/">A Simple Test Case for Convergence Order in Time and Energy Conservation of Black-Box Coupling Schemes</a></li>
+      
+      <li><a href="/project/fsi_coupling/">The oscillator example for testing black-box coupling schemes</a></li>
       
     </ul>
   </div>
@@ -1015,24 +989,8 @@
 
 
 
-    <div class="project-related-pages content-widget-hr">
-      
-      
-
-      
-      
-      
-
-      
-      
-      
-
-      
-      
-      
-    </div>
   </div>
-</article>
+</div>
 
       
 
