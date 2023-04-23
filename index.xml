@@ -7,16 +7,16 @@
     <description>Valentina Schüller</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 22 Sep 2022 15:50:00 +0000</lastBuildDate>
     <image>
-      <url>https://valentinaschueller.github.io/media/avatar.jpg</url>
+      <url>https://valentinaschueller.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Valentina Schüller</title>
       <link>https://valentinaschueller.github.io/</link>
     </image>
     
     <item>
       <title>A Simple Test Case for Error Reduction of Black-Box Coupling Schemes</title>
-      <link>https://valentinaschueller.github.io/talk/gacm_2022/</link>
+      <link>https://valentinaschueller.github.io/talk/a-simple-test-case-for-error-reduction-of-black-box-coupling-schemes/</link>
       <pubDate>Thu, 22 Sep 2022 15:50:00 +0000</pubDate>
-      <guid>https://valentinaschueller.github.io/talk/gacm_2022/</guid>
+      <guid>https://valentinaschueller.github.io/talk/a-simple-test-case-for-error-reduction-of-black-box-coupling-schemes/</guid>
       <description></description>
     </item>
     
@@ -79,14 +79,6 @@ We used it to study both convergence order in time as well as energy conservatio
       <link>https://valentinaschueller.github.io/publication/bsc-thesis/</link>
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://valentinaschueller.github.io/publication/bsc-thesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://valentinaschueller.github.io/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://valentinaschueller.github.io/cv/</guid>
       <description></description>
     </item>
     

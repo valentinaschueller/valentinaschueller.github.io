@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hans-Joachim Bungartz | Valentina Schüller</title>
+    <link>https://valentinaschueller.github.io/authors/hans-joachim-bungartz/</link>
+      <atom:link href="https://valentinaschueller.github.io/authors/hans-joachim-bungartz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hans-Joachim Bungartz</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://valentinaschueller.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Hans-Joachim Bungartz</title>
+      <link>https://valentinaschueller.github.io/authors/hans-joachim-bungartz/</link>
+    </image>
+    
+    <item>
+      <title>A Simple Test Case for Convergence Order in Time and Energy Conservation of Black-Box Coupling Schemes</title>
+      <link>https://valentinaschueller.github.io/publication/fsi-paper/</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://valentinaschueller.github.io/publication/fsi-paper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
