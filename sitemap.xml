@@ -2,11 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://valentinaschueller.github.io/talk/a-simple-test-case-for-error-reduction-of-black-box-coupling-schemes/</loc>
-    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+    <loc>https://valentinaschueller.github.io/publication-type/7/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://valentinaschueller.github.io/authors/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/climate-science/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/equation-coupling/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/multiphysics/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/publication_types/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/publication/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/python/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/publication/msc-thesis/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tags/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/authors/valentina-schuller/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tag/waveform-iterations/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/talk/a-simple-test-case-for-error-reduction-of-black-box-coupling-schemes/</loc>
     <lastmod>2022-09-22T15:50:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -22,23 +70,7 @@
     <lastmod>2022-09-22T15:50:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tags/</loc>
-    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://valentinaschueller.github.io/event/</loc>
-    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/authors/valentina-schuller/</loc>
-    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/</loc>
-    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/tag/waveform-iterations/</loc>
     <lastmod>2022-09-22T15:50:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -62,27 +94,7 @@
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/equation-coupling/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://valentinaschueller.github.io/authors/hans-joachim-bungartz/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/tag/multiphysics/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/publication_types/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/publication/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/tag/python/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -122,16 +134,8 @@
     <lastmod>2021-09-11T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/climate-science/</loc>
-    <lastmod>2020-10-11T16:47:47+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://valentinaschueller.github.io/project/ece_monitoring/</loc>
     <lastmod>2020-10-11T16:47:47+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/publication-type/7/</loc>
-    <lastmod>2020-09-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://valentinaschueller.github.io/publication/bsc-thesis/</loc>

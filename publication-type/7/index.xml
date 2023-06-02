@@ -5,12 +5,20 @@
     <link>https://valentinaschueller.github.io/publication-type/7/</link>
       <atom:link href="https://valentinaschueller.github.io/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
     <description>7</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 12 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://valentinaschueller.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://valentinaschueller.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>7</title>
       <link>https://valentinaschueller.github.io/publication-type/7/</link>
     </image>
+    
+    <item>
+      <title>Schwarz Waveform Relaxation for a Single Column Climate Model</title>
+      <link>https://valentinaschueller.github.io/publication/msc-thesis/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://valentinaschueller.github.io/publication/msc-thesis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Monitoring Numerical Climate Simulations. A Tool for the EC-Earth Climate Model.</title>
