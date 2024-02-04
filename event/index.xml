@@ -5,12 +5,20 @@
     <link>https://valentinaschueller.github.io/event/</link>
       <atom:link href="https://valentinaschueller.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 22 Sep 2022 15:50:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 06 Feb 2024 11:00:00 +0000</lastBuildDate>
     <image>
       <url>https://valentinaschueller.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Talks</title>
       <link>https://valentinaschueller.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Waveform Relaxation for Coupled Groundwater and Surface Flows</title>
+      <link>https://valentinaschueller.github.io/talk/waveform-relaxation-for-coupled-groundwater-and-surface-flows/</link>
+      <pubDate>Tue, 06 Feb 2024 11:00:00 +0000</pubDate>
+      <guid>https://valentinaschueller.github.io/talk/waveform-relaxation-for-coupled-groundwater-and-surface-flows/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Simple Test Case for Error Reduction of Black-Box Coupling Schemes</title>
