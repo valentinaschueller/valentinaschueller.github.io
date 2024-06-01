@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://valentinaschueller.github.io/authors/andreas-dedner/</loc>
-    <lastmod>2024-02-06T11:00:00+00:00</lastmod>
+    <loc>https://valentinaschueller.github.io/tags/climate-science/</loc>
+    <lastmod>2024-06-01T15:30:29+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/authors/</loc>
-    <lastmod>2024-02-06T11:00:00+00:00</lastmod>
+    <loc>https://valentinaschueller.github.io/post/</loc>
+    <lastmod>2024-06-01T15:30:29+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/energy-conservation/</loc>
-    <lastmod>2024-02-06T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/tag/order-degradation/</loc>
-    <lastmod>2024-02-06T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/authors/philipp-birken/</loc>
-    <lastmod>2024-02-06T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/tag/strang-splitting/</loc>
-    <lastmod>2024-02-06T11:00:00+00:00</lastmod>
+    <loc>https://valentinaschueller.github.io/post/pasc_2024/</loc>
+    <lastmod>2024-06-01T15:30:29+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://valentinaschueller.github.io/tags/</loc>
+    <lastmod>2024-06-01T15:30:29+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tags/waveform-iterations/</loc>
+    <lastmod>2024-06-01T15:30:29+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tags/energy-conservation/</loc>
+    <lastmod>2024-02-06T11:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/tags/order-degradation/</loc>
     <lastmod>2024-02-06T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -34,31 +34,19 @@
     <lastmod>2024-02-06T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/authors/valentina-schuller/</loc>
+    <loc>https://valentinaschueller.github.io/tags/strang-splitting/</loc>
     <lastmod>2024-02-06T11:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/</loc>
+    <loc>https://valentinaschueller.github.io/event/pint_2024/</loc>
     <lastmod>2024-02-06T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/tag/waveform-iterations/</loc>
-    <lastmod>2024-02-06T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/talk/waveform-relaxation-for-coupled-groundwater-and-surface-flows/</loc>
-    <lastmod>2024-02-06T11:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/tag/climate-science/</loc>
-    <lastmod>2023-06-15T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://valentinaschueller.github.io/project/richards_swe/</loc>
     <lastmod>2023-06-15T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/coupling/</loc>
+    <loc>https://valentinaschueller.github.io/tags/coupling/</loc>
     <lastmod>2023-06-15T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -66,19 +54,19 @@
     <lastmod>2023-06-15T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/ec-earth/</loc>
+    <loc>https://valentinaschueller.github.io/tags/ec-earth/</loc>
     <lastmod>2023-06-15T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/equation-coupling/</loc>
+    <loc>https://valentinaschueller.github.io/tags/equation-coupling/</loc>
     <lastmod>2023-06-15T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/multiphysics/</loc>
+    <loc>https://valentinaschueller.github.io/tags/multiphysics/</loc>
     <lastmod>2023-06-15T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/precice/</loc>
+    <loc>https://valentinaschueller.github.io/tags/precice/</loc>
     <lastmod>2023-06-15T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -86,16 +74,8 @@
     <lastmod>2023-06-15T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/python/</loc>
+    <loc>https://valentinaschueller.github.io/tags/python/</loc>
     <lastmod>2023-06-15T16:47:47+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/authors/valentina/</loc>
-    <lastmod>2023-06-15T16:47:47+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/publication-type/7/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://valentinaschueller.github.io/publication_types/</loc>
@@ -110,31 +90,27 @@
     <lastmod>2023-03-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/talk/a-simple-test-case-for-error-reduction-of-black-box-coupling-schemes/</loc>
-    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
+    <loc>https://valentinaschueller.github.io/publication_types/thesis/</loc>
+    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/publication-type/1/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+    <loc>https://valentinaschueller.github.io/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://valentinaschueller.github.io/event/gacm_2022/</loc>
+    <lastmod>2022-09-22T15:50:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://valentinaschueller.github.io/publication/fsi-paper/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/authors/benjamin-rodenberg/</loc>
+    <loc>https://valentinaschueller.github.io/tags/co-simulation/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/authors/benjamin-uekermann/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/tag/co-simulation/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/authors/hans-joachim-bungartz/</loc>
+    <loc>https://valentinaschueller.github.io/publication_types/conference-paper/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -146,15 +122,15 @@
     <lastmod>2021-09-11T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/c-/</loc>
+    <loc>https://valentinaschueller.github.io/tags/c&#43;&#43;/</loc>
     <lastmod>2021-09-11T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/fortran/</loc>
+    <loc>https://valentinaschueller.github.io/tags/fortran/</loc>
     <lastmod>2021-09-11T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://valentinaschueller.github.io/tag/parallel-in-time/</loc>
+    <loc>https://valentinaschueller.github.io/tags/parallel-in-time/</loc>
     <lastmod>2021-09-11T16:47:47+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -168,12 +144,6 @@
   </url><url>
     <loc>https://valentinaschueller.github.io/publication/bsc-thesis/</loc>
     <lastmod>2020-09-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/categories/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://valentinaschueller.github.io/post/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

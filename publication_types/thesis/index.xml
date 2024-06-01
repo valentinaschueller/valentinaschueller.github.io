@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thesis | Valentina Schüller</title>
+    <link>https://valentinaschueller.github.io/publication_types/thesis/</link>
+      <atom:link href="https://valentinaschueller.github.io/publication_types/thesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thesis</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://valentinaschueller.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Thesis</title>
+      <link>https://valentinaschueller.github.io/publication_types/thesis/</link>
+    </image>
+    
+    <item>
+      <title>Schwarz Waveform Relaxation for a Single Column Climate Model</title>
+      <link>https://valentinaschueller.github.io/publication/msc-thesis/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://valentinaschueller.github.io/publication/msc-thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monitoring Numerical Climate Simulations: A Tool for the EC-Earth Climate Model</title>
+      <link>https://valentinaschueller.github.io/publication/bsc-thesis/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://valentinaschueller.github.io/publication/bsc-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
