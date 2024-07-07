@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News | Valentina Schüller</title>
-    <link>https://valentinaschueller.github.io/post/</link>
-      <atom:link href="https://valentinaschueller.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/post/</link>
+      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 15:30:29 +0200</lastBuildDate>
     <image>
-      <url>https://valentinaschueller.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>News</title>
-      <link>https://valentinaschueller.github.io/post/</link>
+      <link>http://localhost:1313/post/</link>
     </image>
     
     <item>
       <title>Poster at PASC24: Waveform Relaxation for Atmosphere-Ocean-Sea Ice Coupling</title>
-      <link>https://valentinaschueller.github.io/post/pasc_2024/</link>
+      <link>http://localhost:1313/post/pasc_2024/</link>
       <pubDate>Sat, 01 Jun 2024 15:30:29 +0200</pubDate>
-      <guid>https://valentinaschueller.github.io/post/pasc_2024/</guid>
+      <guid>http://localhost:1313/post/pasc_2024/</guid>
       <description>&lt;p&gt;I am at &lt;a href=&#34;https://pasc24.pasc-conference.org/&#34;&gt;PASC24&lt;/a&gt;, presenting a poster with results from our experiments with the EC-Earth Atmosphere-Ocean Single Column Model.
 See the links above for the poster as a PDF, as well as more information about this project!&lt;/p&gt;
 &lt;p&gt;The QR code on the poster redirects to this video:&lt;/p&gt;

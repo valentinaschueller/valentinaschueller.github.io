@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Waveform Iterations | Valentina Schüller</title>
-    <link>https://valentinaschueller.github.io/tags/waveform-iterations/</link>
-      <atom:link href="https://valentinaschueller.github.io/tags/waveform-iterations/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/waveform-iterations/</link>
+      <atom:link href="http://localhost:1313/tags/waveform-iterations/index.xml" rel="self" type="application/rss+xml" />
     <description>Waveform Iterations</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 15:30:29 +0200</lastBuildDate>
     <image>
-      <url>https://valentinaschueller.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Waveform Iterations</title>
-      <link>https://valentinaschueller.github.io/tags/waveform-iterations/</link>
+      <link>http://localhost:1313/tags/waveform-iterations/</link>
     </image>
     
     <item>
       <title>Poster at PASC24: Waveform Relaxation for Atmosphere-Ocean-Sea Ice Coupling</title>
-      <link>https://valentinaschueller.github.io/post/pasc_2024/</link>
+      <link>http://localhost:1313/post/pasc_2024/</link>
       <pubDate>Sat, 01 Jun 2024 15:30:29 +0200</pubDate>
-      <guid>https://valentinaschueller.github.io/post/pasc_2024/</guid>
+      <guid>http://localhost:1313/post/pasc_2024/</guid>
       <description>&lt;p&gt;I am at &lt;a href=&#34;https://pasc24.pasc-conference.org/&#34;&gt;PASC24&lt;/a&gt;, presenting a poster with results from our experiments with the EC-Earth Atmosphere-Ocean Single Column Model.
 See the links above for the poster as a PDF, as well as more information about this project!&lt;/p&gt;
 &lt;p&gt;The QR code on the poster redirects to this video:&lt;/p&gt;
@@ -33,18 +33,18 @@ See the links above for the poster as a PDF, as well as more information about t
     
     <item>
       <title>Waveform Relaxation for Coupled Groundwater and Surface Flows</title>
-      <link>https://valentinaschueller.github.io/event/pint_2024/</link>
+      <link>http://localhost:1313/event/pint_2024/</link>
       <pubDate>Tue, 06 Feb 2024 11:00:00 +0000</pubDate>
-      <guid>https://valentinaschueller.github.io/event/pint_2024/</guid>
+      <guid>http://localhost:1313/event/pint_2024/</guid>
       <description>&lt;p&gt;Water management projects such as stream bed re-naturalization affect the water table, which is relevant, e.g., for flood prediction. These physical processes can be modeled by coupling the Richards equation for groundwater flow to a shallow water model for rivers or lakes (&lt;a href=&#34;https://doi-org.ludwig.lub.lu.se/10.1007/978-3-642-25100-9_65&#34;&gt;Bastian et al., 2012&lt;/a&gt;). We analyzed the fully discrete, linearized formulation of this coupling problem, yielding an optimal choice of the relaxation parameter for sequential Dirichlet-Neumann iterations. Here we followed the techniques previously established in &lt;a href=&#34;https://doi-org.ludwig.lub.lu.se/10.1007/s00466-017-1511-3&#34;&gt;Monge &amp;amp; Birken, 2018&lt;/a&gt;. This analysis is closely linked to parallel Dirichlet-Neumann iterations, which are a special case of parallel-in-time waveform relaxation. Waveform relaxation methods have been extensively studied in continuous or semi-discrete formulations. As we will show in this talk, the fully discrete analysis—corresponding to the actual implementation in a numerical model—can give significantly different results. Our theoretical analysis is supported by numerical results for a fully nonlinear test case using &lt;a href=&#34;https://dune-project.org/&#34;&gt;DUNE&lt;/a&gt; and &lt;a href=&#34;https://precice.org/&#34;&gt;preCICE&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Coupled Groundwater-Surface Flows</title>
-      <link>https://valentinaschueller.github.io/project/richards_swe/</link>
+      <link>http://localhost:1313/project/richards_swe/</link>
       <pubDate>Thu, 15 Jun 2023 16:47:47 +0200</pubDate>
-      <guid>https://valentinaschueller.github.io/project/richards_swe/</guid>
+      <guid>http://localhost:1313/project/richards_swe/</guid>
       <description>&lt;p&gt;In this project, we are analyzing coupling algorithms for the Richards equation coupled to the shallow water equations (SWE).
 These are nonlinear partial differential equations which can model groundwater and surface flows, respectively.
 Coupling them yields a model that can simulate effects of water management and flooding on the water table and aquifer.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
@@ -67,17 +67,17 @@ Both are written in Python, using &lt;a href=&#34;https://dune-project.org/&#34;
     
     <item>
       <title>Schwarz Waveform Relaxation for a Single Column Climate Model</title>
-      <link>https://valentinaschueller.github.io/publication/msc-thesis/</link>
+      <link>http://localhost:1313/publication/msc-thesis/</link>
       <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://valentinaschueller.github.io/publication/msc-thesis/</guid>
+      <guid>http://localhost:1313/publication/msc-thesis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Simple Test Case for Error Reduction of Black-Box Coupling Schemes</title>
-      <link>https://valentinaschueller.github.io/event/gacm_2022/</link>
+      <link>http://localhost:1313/event/gacm_2022/</link>
       <pubDate>Thu, 22 Sep 2022 15:50:00 +0000</pubDate>
-      <guid>https://valentinaschueller.github.io/event/gacm_2022/</guid>
+      <guid>http://localhost:1313/event/gacm_2022/</guid>
       <description>&lt;p&gt;Black-box coupling libraries such as preCICE support sophisticated methods to enable accurate and efficient multiphysics simulations (e.g., regarding data mapping or coupling scheme acceleration).
 However, sticking to standard coupling schemes can easily decrease the achievable convergence order of the numerical solution, specifically with respect to time integration; a phenomenon we call order degradation.
 To understand these effects (and possible solutions), we want to study specifically the interaction of coupling schemes and time integration methods. &lt;p&gt;&lt;/p&gt;
@@ -88,17 +88,17 @@ To understand these effects (and possible solutions), we want to study specifica
     
     <item>
       <title>A Simple Test Case for Convergence Order in Time and Energy Conservation of Black-Box Coupling Schemes</title>
-      <link>https://valentinaschueller.github.io/publication/fsi-paper/</link>
+      <link>http://localhost:1313/publication/fsi-paper/</link>
       <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://valentinaschueller.github.io/publication/fsi-paper/</guid>
+      <guid>http://localhost:1313/publication/fsi-paper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The oscillator example for testing black-box coupling schemes</title>
-      <link>https://valentinaschueller.github.io/project/fsi_coupling/</link>
+      <link>http://localhost:1313/project/fsi_coupling/</link>
       <pubDate>Mon, 04 Oct 2021 16:47:47 +0200</pubDate>
-      <guid>https://valentinaschueller.github.io/project/fsi_coupling/</guid>
+      <guid>http://localhost:1313/project/fsi_coupling/</guid>
       <description>&lt;p&gt;I developed this small code base together with &lt;a href=&#34;https://www.cs.cit.tum.de/sccs/personen/benjamin-rodenberg/&#34;&gt;Benjamin Rodenberg&lt;/a&gt; following a seminar on multiphysics simulation.
 We used it to study both convergence order in time as well as energy conservation for common black-box coupling schemes.&lt;/p&gt;
 &lt;ul&gt;
