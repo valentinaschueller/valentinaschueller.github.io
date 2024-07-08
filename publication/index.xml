@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Valentina Schüller</title>
-    <link>http://localhost:1313/publication/</link>
-      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://valentinaschueller.github.io/publication/</link>
+      <atom:link href="https://valentinaschueller.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://valentinaschueller.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>http://localhost:1313/publication/</link>
+      <link>https://valentinaschueller.github.io/publication/</link>
     </image>
     
     <item>
       <title>Schwarz Waveform Relaxation for a Single Column Climate Model</title>
-      <link>http://localhost:1313/publication/msc-thesis/</link>
+      <link>https://valentinaschueller.github.io/publication/msc-thesis/</link>
       <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/msc-thesis/</guid>
+      <guid>https://valentinaschueller.github.io/publication/msc-thesis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Simple Test Case for Convergence Order in Time and Energy Conservation of Black-Box Coupling Schemes</title>
-      <link>http://localhost:1313/publication/fsi-paper/</link>
+      <link>https://valentinaschueller.github.io/publication/fsi-paper/</link>
       <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fsi-paper/</guid>
+      <guid>https://valentinaschueller.github.io/publication/fsi-paper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Monitoring Numerical Climate Simulations: A Tool for the EC-Earth Climate Model</title>
-      <link>http://localhost:1313/publication/bsc-thesis/</link>
+      <link>https://valentinaschueller.github.io/publication/bsc-thesis/</link>
       <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/bsc-thesis/</guid>
+      <guid>https://valentinaschueller.github.io/publication/bsc-thesis/</guid>
       <description></description>
     </item>
     

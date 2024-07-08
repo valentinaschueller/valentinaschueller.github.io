@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Valentina Schüller</title>
-    <link>http://localhost:1313/project/</link>
-      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://valentinaschueller.github.io/project/</link>
+      <atom:link href="https://valentinaschueller.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Jun 2023 16:47:47 +0200</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://valentinaschueller.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>http://localhost:1313/project/</link>
+      <link>https://valentinaschueller.github.io/project/</link>
     </image>
     
     <item>
       <title>Coupled Groundwater-Surface Flows</title>
-      <link>http://localhost:1313/project/richards_swe/</link>
+      <link>https://valentinaschueller.github.io/project/richards_swe/</link>
       <pubDate>Thu, 15 Jun 2023 16:47:47 +0200</pubDate>
-      <guid>http://localhost:1313/project/richards_swe/</guid>
+      <guid>https://valentinaschueller.github.io/project/richards_swe/</guid>
       <description>&lt;p&gt;In this project, we are analyzing coupling algorithms for the Richards equation coupled to the shallow water equations (SWE).
 These are nonlinear partial differential equations which can model groundwater and surface flows, respectively.
 Coupling them yields a model that can simulate effects of water management and flooding on the water table and aquifer.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
@@ -39,10 +39,10 @@ Both are written in Python, using &lt;a href=&#34;https://dune-project.org/&#34;
     
     <item>
       <title>Coupling Algorithms in the EC-Earth AOSCM</title>
-      <link>http://localhost:1313/project/scm_coupling/</link>
+      <link>https://valentinaschueller.github.io/project/scm_coupling/</link>
       <pubDate>Thu, 15 Jun 2023 16:47:47 +0200</pubDate>
-      <guid>http://localhost:1313/project/scm_coupling/</guid>
-      <description>&lt;p&gt;I started working with the EC-Earth coupled atmosphere–ocean single-column model (&lt;a href=&#34;https://doi.org/10.5194/gmd-11-4117-2018&#34;&gt;Hartung et al., 2018&lt;/a&gt;) during my &lt;a href=&#34;http://localhost:1313/publication/msc-thesis/&#34;&gt;master&amp;rsquo;s thesis&lt;/a&gt;.
+      <guid>https://valentinaschueller.github.io/project/scm_coupling/</guid>
+      <description>&lt;p&gt;I started working with the EC-Earth coupled atmosphere–ocean single-column model (&lt;a href=&#34;https://doi.org/10.5194/gmd-11-4117-2018&#34;&gt;Hartung et al., 2018&lt;/a&gt;) during my &lt;a href=&#34;https://valentinaschueller.github.io/publication/msc-thesis/&#34;&gt;master&amp;rsquo;s thesis&lt;/a&gt;.
 This is a version of the &lt;a href=&#34;https://ec-earth.org/&#34;&gt;EC-Earth global climate model&lt;/a&gt; which is useful for model development, particularly regarding physics parameterizations in the atmospheric and oceanic boundary layers.
 In my work, I have created scripts and workflows to study the impact of different coupling algorithms on model output.
 My master&amp;rsquo;s thesis covers pure atmosphere-ocean coupling, we are working to include other models as well (e.g., the sea ice model &lt;a href=&#34;https://doi.org/10.5194/gmd-8-2991-2015&#34;&gt;LIM3&lt;/a&gt;).&lt;/p&gt;
@@ -54,9 +54,9 @@ See the &lt;a href=&#34;https://github.com/valentinaschueller/ece-scm-coupling&#
     
     <item>
       <title>The oscillator example for testing black-box coupling schemes</title>
-      <link>http://localhost:1313/project/fsi_coupling/</link>
+      <link>https://valentinaschueller.github.io/project/fsi_coupling/</link>
       <pubDate>Mon, 04 Oct 2021 16:47:47 +0200</pubDate>
-      <guid>http://localhost:1313/project/fsi_coupling/</guid>
+      <guid>https://valentinaschueller.github.io/project/fsi_coupling/</guid>
       <description>&lt;p&gt;I developed this small code base together with &lt;a href=&#34;https://www.cs.cit.tum.de/sccs/personen/benjamin-rodenberg/&#34;&gt;Benjamin Rodenberg&lt;/a&gt; following a seminar on multiphysics simulation.
 We used it to study both convergence order in time as well as energy conservation for common black-box coupling schemes.&lt;/p&gt;
 &lt;ul&gt;
@@ -68,25 +68,25 @@ We used it to study both convergence order in time as well as energy conservatio
     
     <item>
       <title>BGCE Honor&#39;s Project</title>
-      <link>http://localhost:1313/project/bgce_infineon/</link>
+      <link>https://valentinaschueller.github.io/project/bgce_infineon/</link>
       <pubDate>Sat, 11 Sep 2021 16:47:47 +0200</pubDate>
-      <guid>http://localhost:1313/project/bgce_infineon/</guid>
+      <guid>https://valentinaschueller.github.io/project/bgce_infineon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SWEET x LibPFASST</title>
-      <link>http://localhost:1313/project/sweet/</link>
+      <link>https://valentinaschueller.github.io/project/sweet/</link>
       <pubDate>Sat, 11 Sep 2021 16:47:47 +0200</pubDate>
-      <guid>http://localhost:1313/project/sweet/</guid>
+      <guid>https://valentinaschueller.github.io/project/sweet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EC-Earth 4 Monitoring</title>
-      <link>http://localhost:1313/project/ece_monitoring/</link>
+      <link>https://valentinaschueller.github.io/project/ece_monitoring/</link>
       <pubDate>Sun, 11 Oct 2020 16:47:47 +0200</pubDate>
-      <guid>http://localhost:1313/project/ece_monitoring/</guid>
+      <guid>https://valentinaschueller.github.io/project/ece_monitoring/</guid>
       <description></description>
     </item>
     

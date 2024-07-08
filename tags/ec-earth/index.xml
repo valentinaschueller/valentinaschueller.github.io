@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ec-Earth | Valentina Schüller</title>
-    <link>http://localhost:1313/tags/ec-earth/</link>
-      <atom:link href="http://localhost:1313/tags/ec-earth/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://valentinaschueller.github.io/tags/ec-earth/</link>
+      <atom:link href="https://valentinaschueller.github.io/tags/ec-earth/index.xml" rel="self" type="application/rss+xml" />
     <description>Ec-Earth</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Jun 2023 16:47:47 +0200</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://valentinaschueller.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Ec-Earth</title>
-      <link>http://localhost:1313/tags/ec-earth/</link>
+      <link>https://valentinaschueller.github.io/tags/ec-earth/</link>
     </image>
     
     <item>
       <title>Coupling Algorithms in the EC-Earth AOSCM</title>
-      <link>http://localhost:1313/project/scm_coupling/</link>
+      <link>https://valentinaschueller.github.io/project/scm_coupling/</link>
       <pubDate>Thu, 15 Jun 2023 16:47:47 +0200</pubDate>
-      <guid>http://localhost:1313/project/scm_coupling/</guid>
-      <description>&lt;p&gt;I started working with the EC-Earth coupled atmosphere–ocean single-column model (&lt;a href=&#34;https://doi.org/10.5194/gmd-11-4117-2018&#34;&gt;Hartung et al., 2018&lt;/a&gt;) during my &lt;a href=&#34;http://localhost:1313/publication/msc-thesis/&#34;&gt;master&amp;rsquo;s thesis&lt;/a&gt;.
+      <guid>https://valentinaschueller.github.io/project/scm_coupling/</guid>
+      <description>&lt;p&gt;I started working with the EC-Earth coupled atmosphere–ocean single-column model (&lt;a href=&#34;https://doi.org/10.5194/gmd-11-4117-2018&#34;&gt;Hartung et al., 2018&lt;/a&gt;) during my &lt;a href=&#34;https://valentinaschueller.github.io/publication/msc-thesis/&#34;&gt;master&amp;rsquo;s thesis&lt;/a&gt;.
 This is a version of the &lt;a href=&#34;https://ec-earth.org/&#34;&gt;EC-Earth global climate model&lt;/a&gt; which is useful for model development, particularly regarding physics parameterizations in the atmospheric and oceanic boundary layers.
 In my work, I have created scripts and workflows to study the impact of different coupling algorithms on model output.
 My master&amp;rsquo;s thesis covers pure atmosphere-ocean coupling, we are working to include other models as well (e.g., the sea ice model &lt;a href=&#34;https://doi.org/10.5194/gmd-8-2991-2015&#34;&gt;LIM3&lt;/a&gt;).&lt;/p&gt;
@@ -29,9 +29,9 @@ See the &lt;a href=&#34;https://github.com/valentinaschueller/ece-scm-coupling&#
     
     <item>
       <title>EC-Earth 4 Monitoring</title>
-      <link>http://localhost:1313/project/ece_monitoring/</link>
+      <link>https://valentinaschueller.github.io/project/ece_monitoring/</link>
       <pubDate>Sun, 11 Oct 2020 16:47:47 +0200</pubDate>
-      <guid>http://localhost:1313/project/ece_monitoring/</guid>
+      <guid>https://valentinaschueller.github.io/project/ece_monitoring/</guid>
       <description></description>
     </item>
     
