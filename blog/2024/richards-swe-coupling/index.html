@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Coupled Groundwater-Surface Flows</title>
+		<title>Coupled groundwater-surface flows</title>
 		<meta name="description" content="PhD Student in Numerical Analysis at Lund University.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Valentina Schüller">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Valentina Schüller">
@@ -491,42 +491,48 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Coupled Groundwater-Surface Flows</h1>
+<h1>Coupled groundwater-surface flows</h1>
 
 <ul class="post-metadata">
 	<li><time datetime="2024-03-01">01 March 2024</time></li>
 </ul>
+<ul class="post-metadata">
+	<li><a href="/tags/research/" class="post-tag">research</a>, </li>
+	<li><a href="/tags/english/" class="post-tag">english</a></li>
+</ul>
 
-<p>In this project, we are analyzing coupling algorithms for the Richards equation coupled to the shallow water equations (SWE).<br>
-These are nonlinear partial differential equations which can model groundwater and surface flows, respectively.<br>
-Coupling them yields a model that can simulate effects of water management and flooding on the water table and aquifer.<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br>
-Particularly, I am working on a fully discrete and continuous analysis of Dirichlet-Neumann Waveform Relaxation (DNWR) for a linearized, coupled Richards-SWE model.<br>
-Here I have used methods developed by <a href="https://doi-org.ludwig.lub.lu.se/10.1007/s00466-017-1511-3">Monge &amp; Birken, 2018</a> and <a href="https://doi-org.ludwig.lub.lu.se/10.1007/978-3-319-18827-0_51">Gander, Kwok &amp; Mandal, 2014</a>.</p>
-<p>I have developed an <a href="https://gitlab.maths.lu.se/robertk/coupling">implementation of the fully nonlinear model</a>.<br>
-Both are written in Python, using <a href="https://dune-project.org/">DUNE</a> to generate the discretization and <a href="https://precice.org/">preCICE</a> for coupling.</p>
+<blockquote>
+<p><em>I aim to have one short summary post for each of my active/finished research projects. This is one of them.</em></p>
+</blockquote>
+<p>In this project, we analyze coupled surface-subsurface flows for hydrological applications.
+These are modeled using nonlinear partial differential equations: <a href="https://en.wikipedia.org/wiki/Richards_equation">Richards' equation</a> for groundwater flow and a variant of the <a href="https://en.wikipedia.org/wiki/Shallow_water_equations">shallow water equations</a> for surface flow.
+Coupling them yields a model that can simulate effects of water management and flooding on the water table and aquifer.<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<p>Particularly, we have analyzed a linearized, coupled Richards-SWE model using methods developed by <a href="https://doi-org.ludwig.lub.lu.se/10.1007/s00466-017-1511-3">Monge &amp; Birken, 2018</a> and <a href="https://doi-org.ludwig.lub.lu.se/10.1007/978-3-319-18827-0_51">Gander, Kwok &amp; Mandal, 2014</a>.
+We study how well this analysis works for the fully nonlinear case:
+For this purpose, I have developed a Python implementation for coupled surface-subsurface flow, using <a href="https://dune-project.org/">DUNE</a> to generate the discretization and <a href="https://precice.org/">preCICE</a> for coupling.</p>
+<p>See also:</p>
+<ul>
+<li>the <a href="https://gitlab.maths.lu.se/robertk/coupling">code repository</a></li>
+<li><a href="/research/upload/2024-02-06-pint_slides.pdf">slides</a> from my talk at PinT 2024</li>
+<li>my <a href="/research/upload/2023_essence_poster.pdf">poster</a> at the Swedish e-Science conference 2023</li>
+</ul>
 <p><em><strong>Collaborators:</strong> <a href="https://www.maths.lu.se/staff/philipp-birken">Philipp Birken</a> and <a href="https://warwick.ac.uk/fac/sci/maths/people/staff/andreas_dedner/">Andreas Dedner</a>.</em></p>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>Bastian, P. et al. (2012). Adaptive Modelling of Coupled Hydrological Processes with Application in Water Management. In: Günther, M., Bartel, A., Brunk, M., Schöps, S., Striebel, M. (eds) Progress in Industrial Mathematics at ECMI 2010. Mathematics in Industry, vol 17. Springer, Berlin, Heidelberg. <a href="https://doi-org.ludwig.lub.lu.se/10.1007/978-3-642-25100-9_65">https://doi-org.ludwig.lub.lu.se/10.1007/978-3-642-25100-9_65</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+<li id="fn1" class="footnote-item"><p>Bastian, P. et al. (<a href="https://doi-org.ludwig.lub.lu.se/10.1007/978-3-642-25100-9_65">2012</a>); Maxwell, R. M. et al. (<a href="https://doi.org/10.1002/2013WR013725">2014</a>) <a href="#fnref1" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
 
 
-<ul class="post-metadata">
-	Tags:
-	<li><a href="/tags/research/" class="post-tag">research</a>, </li>
-	<li><a href="/tags/english/" class="post-tag">english</a></li>
-</ul>
-
-<ul class="links-nextprev"><li>Next: <a href="/blog/2024/scm-coupling/">Coupling Algorithms in the EC-Earth AOSCM</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/blog/2023/oscillator-example/">The oscillator example for coupling algorithms</a></li><li>Next: <a href="/blog/2024/scm-coupling/">Coupling algorithms in the EC-Earth AOSCM</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/blog/2024/richards-swe-coupling/` was built on 2024-08-01T19:15:53.486Z -->
+		<!-- This page `/blog/2024/richards-swe-coupling/` was built on 2024-08-02T10:24:53.844Z -->
 	</body>
 </html>

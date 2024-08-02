@@ -3,13 +3,181 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Valentina Schüller</title>
+		<title>The oscillator example for coupling algorithms</title>
 		<meta name="description" content="PhD Student in Numerical Analysis at Lund University.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Valentina Schüller">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Valentina Schüller">
 		<meta name="generator" content="Eleventy v2.0.1">
 		
-		<style>* { box-sizing: border-box; }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -315,53 +483,47 @@ h2 + .header-anchor {
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/research/" aria-current="page">Research</a></li>
+					<li class="nav-item"><a href="/research/">Research</a></li>
 					<li class="nav-item"><a href="/blog/">Archive</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<main id="skip">
-			<p>I am a PhD student in Numerical Analysis at Lund University, supervised by <a href="https://www.maths.lu.se/staff/philipp-birken">Philipp Birken</a> and <a href="https://www.mengwuguo.com/">Mengwu Guo</a>.
-My research focuses on <strong>coupling algorithms for multiphysics problems</strong>, particularly for <strong>climate models</strong> and <strong>environmental applications</strong> involving air and water flows.
-In this context I use <em>waveform relaxation</em> as a high-order black box coupling method.</p>
+			
+<h1>The oscillator example for coupling algorithms</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2023-10-01">01 October 2023</time></li>
+</ul>
+<ul class="post-metadata">
+	<li><a href="/tags/research/" class="post-tag">research</a>, </li>
+	<li><a href="/tags/english/" class="post-tag">english</a></li>
+</ul>
+
+<blockquote>
+<p><em>I aim to have one short summary post for each of my active/finished research projects. This is one of them.</em></p>
+</blockquote>
+<p>During my master's program in Munich, I took a seminar course on fluid-structure interaction.
+My project, supervised by <a href="https://www.cs.cit.tum.de/sccs/personen/benjamin-rodenberg/">Benjamin Rodenberg</a>, was about the order of convergence in time for coupled systems of equations.
+I demonstrated how the coupling algorithm affects convergence order and energy conservation for a simple example that Benjamin came up with: coupled linear oscillators.</p>
+<p>We published this work as part of the WCCM-APCOM 2022 conference proceedings.</p>
 <p>See also:</p>
 <ul>
-<li><a href="https://portal.research.lu.se/en/persons/valentina-schueller">Lund University's Research Portal</a></li>
-<li><a href="https://orcid.org/0000-0002-4579-4217">ORCID iD</a></li>
-<li><a href="https://github.com/valentinaschueller">GitHub</a></li>
-<li>e-mail address (remove thin spaces):<br><code>valentina.schuller @ math.lu.se</code></li>
+<li>the <a href="https://doi.org/10.23967/wccm-apcom.2022.038">conference paper</a></li>
+<li><a href="/research/upload/2022-09-22-gacm_slides.pdf">slides</a> from my talk at GACM 2022</li>
+<li>the associated <a href="https://precice.org/tutorials-oscillator.html">preCICE tutorial</a> written by Benjamin Rodenberg</li>
 </ul>
-<h2 id="papers" tabindex="-1">Papers <a class="header-anchor" href="#papers">#</a></h2>
-<ol>
-<li><strong>A Simple Test Case for Convergence Order in Time and Energy Conservation of Black-Box Coupling Schemes</strong> (2022)<br>
-V. Schüller, B. Rodenberg, B. Uekermann, H.-J. Bungartz. <a href="upload/2022_oscillator_paper.pdf">PDF</a>, <a href="https://doi.org/10.23967/wccm-apcom.2022.038">DOI</a>.</li>
-</ol>
-<h2 id="posters" tabindex="-1">Posters <a class="header-anchor" href="#posters">#</a></h2>
-<ol>
-<li><strong>Waveform Relaxation for Atmosphere-Ocean-Sea Ice Coupling</strong> (2024)<br>
-V. Schüller, P. Birken, E. Blayo, F. Lemarié. <a href="upload/2024_pasc_poster.pdf">PDF</a>.</li>
-<li><strong>Numerical Methods for Coupled Environmental Problems</strong> (2023)<br>
-V. Schüller &amp; P. Birken. <a href="upload/2023_essence_poster.pdf">PDF</a>.</li>
-</ol>
-<h2 id="talks" tabindex="-1">Talks <a class="header-anchor" href="#talks">#</a></h2>
-<ol>
-<li><strong>Waveform Relaxation for Coupled Groundwater and Surface Flows</strong> (2024)<br>
-V. Schüller, P. Birken, A. Dedner. <a href="https://parallel-in-time.org/events/13th-pint-workshop/">PinT 2024</a>, Bruges, Belgium. <a href="upload/2024-02-06-pint_slides.pdf">Slides</a>.</li>
-<li><strong>A Simple Test Case for Error Reduction of Black-Box Coupling Schemes</strong> (2022)<br>
-V. Schüller, B. Rodenberg, B. Uekermann, H.-J. Bungartz. <a href="https://colloquia.gacm.de/organisation">9th GACM Colloquium 2022</a>, Essen, Germany. <a href="upload/2022-09-22-gacm_slides.pdf">Slides</a>.</li>
-</ol>
-<h2 id="other" tabindex="-1">Other <a class="header-anchor" href="#other">#</a></h2>
-<ol>
-<li><strong>Schwarz Waveform Relaxation for a Single Column Climate Model</strong> (2023, MSc thesis, <a href="upload/2023_msc-thesis.pdf">PDF</a>).</li>
-<li><strong>BGCE Honours Project</strong> (2021/22). As part of the Bavarian Graduate School of Computational Engineering (BGCE), we worked on the parallelization and scalability of a C++ circuit simulator for Infineon Technologies. More info <a href="https://www.bgce.de/curriculum/projects/parallel-nonlinear-solvers-for-integrated-circuits-simulation/">here</a>.</li>
-<li><strong>Monitoring Numerical Climate Simulations: A Tool for the EC-Earth Climate Model</strong> (2020, BSc thesis, <a href="upload/2020_bsc-thesis.pdf">PDF</a>). I developed the <a href="https://ec-earth-4-docs.readthedocs.io/en/latest/monitoring/main.html">monitoring tool for EC-Earth 4</a>.</li>
-</ol>
+<p><em><strong>Collaborators:</strong> <a href="https://www.cs.cit.tum.de/sccs/personen/benjamin-rodenberg/">Benjamin Rodenberg</a>; <a href="https://www.simtech.uni-stuttgart.de/exc/people/Uekermann/">Benjamin Uekermann</a>; <a href="https://www.professoren.tum.de/bungartz-hans-joachim/">Hans-Joachim Bungartz</a>.</em></p>
+
+
+<ul class="links-nextprev"><li>Next: <a href="/blog/2024/richards-swe-coupling/">Coupled groundwater-surface flows</a></li>
+</ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/research/` was built on 2024-08-02T10:24:53.840Z -->
+		<!-- This page `/blog/2023/oscillator-example/` was built on 2024-08-02T10:24:53.844Z -->
 	</body>
 </html>
