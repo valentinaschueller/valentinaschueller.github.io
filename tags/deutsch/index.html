@@ -3,180 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Coupling algorithms in the EC-Earth AOSCM</title>
+		<title>Tagged “deutsch”</title>
 		<meta name="description" content="PhD Student in Numerical Analysis at Lund University.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Valentina Schüller">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Valentina Schüller">
 		<meta name="generator" content="Eleventy v2.0.1">
 		
-		<style>/**
- * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
- * @author ocodia
- */
-
-code[class*="language-"],
-pre[class*="language-"] {
-	color: #f8f8f2;
-	background: none;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
-	border-radius: 0.3em;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background: #272822;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
-	white-space: normal;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-	color: #8292a2;
-}
-
-.token.punctuation {
-	color: #f8f8f2;
-}
-
-.token.namespace {
-	opacity: .7;
-}
-
-.token.property,
-.token.tag,
-.token.constant,
-.token.symbol,
-.token.deleted {
-	color: #f92672;
-}
-
-.token.boolean,
-.token.number {
-	color: #ae81ff;
-}
-
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted {
-	color: #a6e22e;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable {
-	color: #f8f8f2;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.function,
-.token.class-name {
-	color: #e6db74;
-}
-
-.token.keyword {
-	color: #66d9ef;
-}
-
-.token.regex,
-.token.important {
-	color: #fd971f;
-}
-
-.token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
-}
-/*
- * New diff- syntax
- */
-
-pre[class*="language-diff-"] {
-	--eleventy-code-padding: 1.25em;
-	padding-left: var(--eleventy-code-padding);
-	padding-right: var(--eleventy-code-padding);
-}
-.token.deleted {
-	background-color: hsl(0, 51%, 37%);
-	color: inherit;
-}
-.token.inserted {
-	background-color: hsl(126, 31%, 39%);
-	color: inherit;
-}
-
-/* Make the + and - characters unselectable for copy/paste */
-.token.prefix.unchanged,
-.token.prefix.inserted,
-.token.prefix.deleted {
-	-webkit-user-select: none;
-	user-select: none;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.token.prefix.inserted,
-.token.prefix.deleted {
-	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
-}
-
-/* Optional: full-width background color */
-.token.inserted:not(.prefix),
-.token.deleted:not(.prefix) {
-	display: block;
-	margin-left: calc(-1 * var(--eleventy-code-padding));
-	margin-right: calc(-1 * var(--eleventy-code-padding));
-	text-decoration: none; /* override del, ins, mark defaults */
-	color: inherit; /* override del, ins, mark defaults */
-}
+		<style>.postlist { counter-reset: start-from 2 }
 * { box-sizing: border-box; }
 /* Defaults */
 :root {
@@ -490,41 +323,29 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			
-<h1>Coupling algorithms in the EC-Earth AOSCM</h1>
+			<a rel="me" href="https://mastodon.social/@cashbagage"></a>
 
-<ul class="post-metadata">
-	<li><time datetime="2024-06-01">01 June 2024</time></li>
-</ul>
-<ul class="post-metadata">
-	<li><a href="/tags/research/" class="post-tag">research</a>, </li>
-	<li><a href="/tags/english/" class="post-tag">english</a></li>
-</ul>
-
-<blockquote>
-<p><em>I aim to have one short summary post for each of my active/finished research projects. This is one of them.</em></p>
-</blockquote>
-<p>I started working with the EC-Earth coupled atmosphere–ocean single-column model (AOSCM, <a href="https://doi.org/10.5194/gmd-11-4117-2018">Hartung et al., 2018</a>) during my master's thesis.
-This is a version of the <a href="https://ec-earth.org/">EC-Earth global climate model</a> which is useful for model development, particularly regarding physics parameterizations in the atmospheric and oceanic boundary layers.
-The goal here is to make the EC-Earth AOSCM a tool for coupling algorithm development in climate models.</p>
-<p>I have created scripts and workflows to study the impact of different coupling algorithms on model output.
-My master's thesis covers pure atmosphere-ocean coupling, right now we are working on cases including the sea ice model <a href="https://doi.org/10.5281/zenodo.7534900">SI3</a>.</p>
-<p>See also:</p>
-<ul>
-<li>the corresponding <a href="https://github.com/valentinaschueller/ece-scm-coupling">GitHub repository</a></li>
-<li>my <a href="/research/upload/2024_pasc_poster.pdf">poster</a> at PASC24</li>
-<li>my <a href="/research/upload/2023_msc-thesis.pdf">master's thesis</a></li>
-</ul>
-<p><em><strong>Collaborators:</strong> <a href="https://www.maths.lu.se/staff/philipp-birken">Philipp Birken</a>; <a href="https://membres-ljk.imag.fr/Florian.Lemarie/">Florian Lemarié</a> &amp; <a href="https://membres-ljk.imag.fr/Eric.Blayo/">Eric Blayo</a> (<a href="https://team.inria.fr/airsea/en/">AIRSEA Group</a>, INRIA Grenoble); <a href="https://www.su.se/english/research/research-groups/dynamic-meteorology">Dynamic Meteorology Group at MISU</a>.</em></p>
+<h1>Tagged “deutsch”</h1>
 
 
-<ul class="links-nextprev"><li>Previous: <a href="/blog/2024/richards-swe-coupling/">Coupled groundwater-surface flows</a></li><li>Next: <a href="/blog/2024/drei-memoiren/">Drei Frauen, Drei Memoiren</a></li>
-</ul>
+
+<ol reversed class="postlist">
+
+	<li class="postlist-item">
+		<a href="/blog/2024/drei-memoiren/" class="postlist-link">Drei Frauen, Drei Memoiren</a>
+		<time class="postlist-date" datetime="2024-08-03">August 2024</time>
+	</li>
+
+</ol>
+
+
+<p>See <a href="/tags/">all tags</a>.</p>
+
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/blog/2024/scm-coupling/` was built on 2024-08-03T09:48:09.782Z -->
+		<!-- This page `/tags/deutsch/` was built on 2024-08-03T09:48:09.782Z -->
 	</body>
 </html>

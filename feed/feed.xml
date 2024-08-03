@@ -4,12 +4,40 @@
 	<subtitle>PhD Student in Numerical Analysis at Lund University.</subtitle>
 	<link href="https://valentinaschueller.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://valentinaschueller.github.io/"/>
-	<updated>2024-06-01T00:00:00Z</updated>
+	<updated>2024-08-03T00:00:00Z</updated>
 	<id>https://valentinaschueller.github.io/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Drei Frauen, Drei Memoiren</title>
+		<link href="https://valentinaschueller.github.io/blog/2024/drei-memoiren/"/>
+		<updated>2024-08-03T00:00:00Z</updated>
+		<id>https://valentinaschueller.github.io/blog/2024/drei-memoiren/</id>
+		<content type="html">&lt;p&gt;Ich habe in den letzten Wochen, mehr durch Zufall, drei Bücher von drei Frauen gelesen, allesamt Memoiren: &lt;em&gt;Die Träume anderer Leute&lt;/em&gt; von Judith Holofernes, &lt;em&gt;Pick Me Girls&lt;/em&gt; von Sophie Passmann und &lt;em&gt;Spådomen&lt;/em&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://valentinaschueller.github.io/blog/2024/drei-memoiren/&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; von Agneta Pleijel.&lt;/p&gt;
+&lt;p&gt;Memoiren liebe ich: die literarische Verarbeitung des eigenen Lebens. Es passt dazu, dass mir abseits dessen charaktergetriebene Romane &amp;quot;aus dem echten Leben&amp;quot; am meisten gefallen (soll heißen: keine &lt;a href=&quot;https://en.wikipedia.org/wiki/Genre_fiction&quot;&gt;Genreliteratur&lt;/a&gt;). Genauso wie das Interview eines meiner liebsten Journalismusformate ist. Eintauchen in den Kopf anderer Menschen.&lt;/p&gt;
+&lt;p&gt;Die drei Bücher also. Die Autorinnen kommen aus drei verschiedenen Generationen — Pleijel: 1940, Holofernes: 1976, Passmann: 1994. Auf eine Art geht es in jedem Buch um sehr vieles, das meiste überlappt sich nicht, so zum Beispiel:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;die gescheiterte Ehe der Eltern&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://valentinaschueller.github.io/blog/2024/drei-memoiren/&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; und den seltsamen Mikrokosmos Lund (Pleijel);&lt;/li&gt;
+&lt;li&gt;wie Pop in Deutschland produziert wird und ein erfüllendes Künstlerinnendasein nach dem Erfolg (Holofernes);&lt;/li&gt;
+&lt;li&gt;unfassbar unangenehme Männer und das Aufwachsen im Internet (Passmann).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aber warum Unterschiede aufzählen?&lt;/p&gt;
+&lt;p&gt;Die Wörter, die mich beim Nachdenken über alle drei Bücher begleiten, sind &lt;em&gt;Scham&lt;/em&gt; und &lt;em&gt;Zufriedenheit&lt;/em&gt;: Scham über den eigenen Körper, die eigenen Bedürfnisse, das eigene Leben. Und Zufriedenheit, wenn man sich davon ein Stück weit lösen kann. Sinngemäß schreibt Sophie Passmann: Die zufriedene Frau, die die sich nicht schämt, ist die größte Waffe des Feminismus. Und man fühlt das in den beiden anderen Büchern: Die Hauptfiguren sind am schwächsten, wenn sie sich nicht trauen, ihren Bedürfnissen nachzugehen und sich selbst Raum zu geben (nehmen?). Wenn sie nicht an sich glauben. Andersherum: Je freier sie sich machen von (gefühltem) Druck von außen, desto stärker, spannender, bewundernswerter finde ich sie. Desto freier sind sie, insgesamt.&lt;/p&gt;
+&lt;p&gt;Wunderbare Bücher, großartige Frauen.&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Die Prophezeiung &lt;a href=&quot;https://valentinaschueller.github.io/blog/2024/drei-memoiren/&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Im &lt;a href=&quot;https://sverigesradio.se/avsnitt/agneta-pleijel-narmar-sig-livets-andra-akt&quot;&gt;P1 Söndagsintervju 05/2023&lt;/a&gt;: &amp;quot;Deras äktenskap var en lång lång lång skilsmässoprocedur kan man säga&amp;quot; (27:00) &lt;a href=&quot;https://valentinaschueller.github.io/blog/2024/drei-memoiren/&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Coupling algorithms in the EC-Earth AOSCM</title>
