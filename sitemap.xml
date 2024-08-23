@@ -32,7 +32,7 @@
 	</url>
 	
 	<url>
-		<loc>https://valentinaschueller.github.io/tags/research/</loc>
+		<loc>https://valentinaschueller.github.io/tags/deutsch/</loc>
 		<lastmod>2024-07-30</lastmod>
 	</url>
 	
@@ -42,7 +42,7 @@
 	</url>
 	
 	<url>
-		<loc>https://valentinaschueller.github.io/tags/deutsch/</loc>
+		<loc>https://valentinaschueller.github.io/tags/research/</loc>
 		<lastmod>2024-07-30</lastmod>
 	</url>
 	
@@ -64,5 +64,10 @@
 	<url>
 		<loc>https://valentinaschueller.github.io/blog/2024/support-structure/</loc>
 		<lastmod>2024-08-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://valentinaschueller.github.io/blog/2024/submitting-on.arxiv/</loc>
+		<lastmod>2024-08-23</lastmod>
 	</url>
 </urlset>

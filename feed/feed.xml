@@ -4,12 +4,36 @@
 	<subtitle>PhD Student in Numerical Analysis at Lund University.</subtitle>
 	<link href="https://valentinaschueller.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://valentinaschueller.github.io/"/>
-	<updated>2024-08-17T00:00:00Z</updated>
+	<updated>2024-08-23T00:00:00Z</updated>
 	<id>https://valentinaschueller.github.io/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Submitting on arXiV in 2024</title>
+		<link href="https://valentinaschueller.github.io/blog/2024/submitting-on.arxiv/"/>
+		<updated>2024-08-23T00:00:00Z</updated>
+		<id>https://valentinaschueller.github.io/blog/2024/submitting-on.arxiv/</id>
+		<content type="html">&lt;p&gt;I submitted my first paper&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://valentinaschueller.github.io/blog/2024/submitting-on.arxiv/&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; on arXiV yesterday (🎉), alongside submitting it to a journal we want to publish to, and it was way more painful than I thought it would be. I thought I was prepared for everything, I even followed &lt;a href=&quot;https://trevorcampbell.me/html/arxiv.html&quot;&gt;Trevor Campbell&#39;s tutorial&lt;/a&gt; which I found less than two weeks ago.&lt;/p&gt;
+&lt;p&gt;Alas, it did not go as expected. The reasons were threefold:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I worked with my local LaTeX files and TeXLive installation,&lt;/li&gt;
+&lt;li&gt;I used &lt;code&gt;biblatex&lt;/code&gt; for my references,&lt;/li&gt;
+&lt;li&gt;my version of TeXLive is newer than the one on arXiV.
+This way, all my references were missing from the generated PDF. It took me quite a while to figure out what to look for, but then the easiest way for me to solve it was to use a &lt;a href=&quot;https://tex.stackexchange.com/a/723571&quot;&gt;script from StackExchange&lt;/a&gt; that downgrades my version 3.3 &lt;code&gt;.bbl&lt;/code&gt; file to version 3.2. That fixed it 🙌&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Right after that, I talked to one of my group members, who simply suggested to use Overleaf for the final step: Using their &lt;a href=&quot;https://www.overleaf.com/learn/how-to/LaTeX_checklist_for_arXiv_submissions&quot;&gt;submit to arXiV feature&lt;/a&gt; should do the trick without all of the pain... I&#39;ll try that next time!&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;it&#39;s here: &lt;a href=&quot;https://arxiv.org/abs/2408.12582&quot;&gt;https://arxiv.org/abs/2408.12582&lt;/a&gt; &lt;a href=&quot;https://valentinaschueller.github.io/blog/2024/submitting-on.arxiv/&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>A Tool to Reflect on Supervision — Support-Structure</title>
@@ -105,6 +129,7 @@ We study how well this analysis works for the fully nonlinear case:
 For this purpose, I have developed a Python implementation for coupled surface-subsurface flow, using &lt;a href=&quot;https://dune-project.org/&quot;&gt;DUNE&lt;/a&gt; to generate the discretization and &lt;a href=&quot;https://precice.org/&quot;&gt;preCICE&lt;/a&gt; for coupling.&lt;/p&gt;
 &lt;p&gt;See also:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;the &lt;a href=&quot;https://arxiv.org/abs/2408.12582&quot;&gt;preprint on arXiV&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;the &lt;a href=&quot;https://gitlab.maths.lu.se/robertk/coupling&quot;&gt;code repository&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2024-02-06-pint_slides.pdf&quot;&gt;slides&lt;/a&gt; from my talk at PinT 2024&lt;/li&gt;
 &lt;li&gt;my &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2023_essence_poster.pdf&quot;&gt;poster&lt;/a&gt; at the Swedish e-Science conference 2023&lt;/li&gt;

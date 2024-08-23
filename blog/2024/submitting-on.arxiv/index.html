@@ -3,13 +3,181 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Valentina Schüller</title>
+		<title>Submitting on arXiV in 2024</title>
 		<meta name="description" content="PhD Student in Numerical Analysis at Lund University.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Valentina Schüller">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Valentina Schüller">
 		<meta name="generator" content="Eleventy v2.0.1">
 		
-		<style>* { box-sizing: border-box; }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -329,28 +497,41 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			<a rel="me" href="https://mastodon.social/@cashbagage"></a>
+			
+<h1>Submitting on arXiV in 2024</h1>
 
-<h1>Tags</h1>
-
-<ul>
-
-	
-	<li><a href="/tags/research/" class="post-tag">research</a></li>
-
-	
+<ul class="post-metadata">
+	<li><time datetime="2024-08-23">23 August 2024</time></li>
+</ul>
+<ul class="post-metadata">
 	<li><a href="/tags/english/" class="post-tag">english</a></li>
-
-	
-	<li><a href="/tags/deutsch/" class="post-tag">deutsch</a></li>
-
 </ul>
 
+<p>I submitted my first paper<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> on arXiV yesterday (🎉), alongside submitting it to a journal we want to publish to, and it was way more painful than I thought it would be. I thought I was prepared for everything, I even followed <a href="https://trevorcampbell.me/html/arxiv.html">Trevor Campbell's tutorial</a> which I found less than two weeks ago.</p>
+<p>Alas, it did not go as expected. The reasons were threefold:</p>
+<ol>
+<li>I worked with my local LaTeX files and TeXLive installation,</li>
+<li>I used <code>biblatex</code> for my references,</li>
+<li>my version of TeXLive is newer than the one on arXiV.
+This way, all my references were missing from the generated PDF. It took me quite a while to figure out what to look for, but then the easiest way for me to solve it was to use a <a href="https://tex.stackexchange.com/a/723571">script from StackExchange</a> that downgrades my version 3.3 <code>.bbl</code> file to version 3.2. That fixed it 🙌</li>
+</ol>
+<p>Right after that, I talked to one of my group members, who simply suggested to use Overleaf for the final step: Using their <a href="https://www.overleaf.com/learn/how-to/LaTeX_checklist_for_arXiv_submissions">submit to arXiV feature</a> should do the trick without all of the pain... I'll try that next time!</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>it's here: <a href="https://arxiv.org/abs/2408.12582">https://arxiv.org/abs/2408.12582</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/2024/support-structure/">A Tool to Reflect on Supervision — Support-Structure</a></li>
+</ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/tags/` was built on 2024-08-23T06:19:25.894Z -->
+		<!-- This page `/blog/2024/submitting-on.arxiv/` was built on 2024-08-23T06:19:25.893Z -->
 	</body>
 </html>
