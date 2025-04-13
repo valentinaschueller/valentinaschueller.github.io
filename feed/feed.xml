@@ -186,6 +186,7 @@ The goal here is to make the EC-Earth AOSCM a tool for coupling algorithm develo
 My master&#39;s thesis covers pure atmosphere-ocean coupling, right now we are working on cases including the sea ice model &lt;a href=&quot;https://doi.org/10.5281/zenodo.7534900&quot;&gt;SI3&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;See also:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;my &lt;a href=&quot;https://vimeo.com/1074569269/ee41c7d5f7&quot;&gt;talk at the ECMWF Coupling workshop 2025&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;the corresponding &lt;a href=&quot;https://github.com/valentinaschueller/ece-scm-coupling&quot;&gt;GitHub repository&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;my &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2024_pasc_poster.pdf&quot;&gt;poster&lt;/a&gt; at PASC24&lt;/li&gt;
 &lt;li&gt;my &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2023_msc-thesis.pdf&quot;&gt;master&#39;s thesis&lt;/a&gt;&lt;/li&gt;
