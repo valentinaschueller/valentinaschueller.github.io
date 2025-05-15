@@ -206,12 +206,15 @@ My master&#39;s thesis covers pure atmosphere-ocean coupling, right now we are w
 &lt;p&gt;In this project, we analyze coupled surface-subsurface flows for hydrological applications.
 These are modeled using nonlinear partial differential equations: &lt;a href=&quot;https://en.wikipedia.org/wiki/Richards_equation&quot;&gt;Richards&#39; equation&lt;/a&gt; for groundwater flow and a variant of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Shallow_water_equations&quot;&gt;shallow water equations&lt;/a&gt; for surface flow.
 Coupling them yields a model that can simulate effects of water management and flooding on the water table and aquifer.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://valentinaschueller.github.io/blog/2024/richards-swe-coupling/&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Particularly, we have analyzed a linearized, coupled Richards-SWE model using methods developed by &lt;a href=&quot;https://doi-org.ludwig.lub.lu.se/10.1007/s00466-017-1511-3&quot;&gt;Monge &amp;amp; Birken, 2018&lt;/a&gt; and &lt;a href=&quot;https://doi-org.ludwig.lub.lu.se/10.1007/978-3-319-18827-0_51&quot;&gt;Gander, Kwok &amp;amp; Mandal, 2014&lt;/a&gt;.
+&lt;p&gt;Particularly, we analyzed a linearized, coupled Richards-SWE model using methods developed by &lt;a href=&quot;https://doi-org.ludwig.lub.lu.se/10.1007/s00466-017-1511-3&quot;&gt;Monge &amp;amp; Birken, 2018&lt;/a&gt; and &lt;a href=&quot;https://doi-org.ludwig.lub.lu.se/10.1007/978-3-319-18827-0_51&quot;&gt;Gander, Kwok &amp;amp; Mandal, 2014&lt;/a&gt;.
 We study how well this analysis works for the fully nonlinear case:
 For this purpose, I have developed a Python implementation for coupled surface-subsurface flow, using &lt;a href=&quot;https://dune-project.org/&quot;&gt;DUNE&lt;/a&gt; to generate the discretization and &lt;a href=&quot;https://precice.org/&quot;&gt;preCICE&lt;/a&gt; for coupling.&lt;/p&gt;
+&lt;p&gt;The results of this project are summarized in the following publication:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Schüller, V., Birken, P. &amp;amp; Dedner, A. Convergence properties of iteratively coupled surface-subsurface models. &lt;em&gt;Int J Geomath&lt;/em&gt; 16, 9 (2025). &lt;a href=&quot;https://doi-org.ludwig.lub.lu.se/10.1007/s13137-025-00265-4&quot;&gt;DOI&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;See also:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;the &lt;a href=&quot;https://arxiv.org/abs/2408.12582&quot;&gt;preprint on arXiV&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;the &lt;a href=&quot;https://gitlab.maths.lu.se/robertk/coupling&quot;&gt;code repository&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2024-02-06-pint_slides.pdf&quot;&gt;slides&lt;/a&gt; from my talk at PinT 2024&lt;/li&gt;
 &lt;li&gt;my &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2023_essence_poster.pdf&quot;&gt;poster&lt;/a&gt; at the Swedish e-Science conference 2023&lt;/li&gt;

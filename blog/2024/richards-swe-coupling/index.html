@@ -514,12 +514,15 @@ h2 + .header-anchor {
 <p>In this project, we analyze coupled surface-subsurface flows for hydrological applications.
 These are modeled using nonlinear partial differential equations: <a href="https://en.wikipedia.org/wiki/Richards_equation">Richards' equation</a> for groundwater flow and a variant of the <a href="https://en.wikipedia.org/wiki/Shallow_water_equations">shallow water equations</a> for surface flow.
 Coupling them yields a model that can simulate effects of water management and flooding on the water table and aquifer.<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
-<p>Particularly, we have analyzed a linearized, coupled Richards-SWE model using methods developed by <a href="https://doi-org.ludwig.lub.lu.se/10.1007/s00466-017-1511-3">Monge &amp; Birken, 2018</a> and <a href="https://doi-org.ludwig.lub.lu.se/10.1007/978-3-319-18827-0_51">Gander, Kwok &amp; Mandal, 2014</a>.
+<p>Particularly, we analyzed a linearized, coupled Richards-SWE model using methods developed by <a href="https://doi-org.ludwig.lub.lu.se/10.1007/s00466-017-1511-3">Monge &amp; Birken, 2018</a> and <a href="https://doi-org.ludwig.lub.lu.se/10.1007/978-3-319-18827-0_51">Gander, Kwok &amp; Mandal, 2014</a>.
 We study how well this analysis works for the fully nonlinear case:
 For this purpose, I have developed a Python implementation for coupled surface-subsurface flow, using <a href="https://dune-project.org/">DUNE</a> to generate the discretization and <a href="https://precice.org/">preCICE</a> for coupling.</p>
+<p>The results of this project are summarized in the following publication:</p>
+<blockquote>
+<p>Schüller, V., Birken, P. &amp; Dedner, A. Convergence properties of iteratively coupled surface-subsurface models. <em>Int J Geomath</em> 16, 9 (2025). <a href="https://doi-org.ludwig.lub.lu.se/10.1007/s13137-025-00265-4">DOI</a></p>
+</blockquote>
 <p>See also:</p>
 <ul>
-<li>the <a href="https://arxiv.org/abs/2408.12582">preprint on arXiV</a></li>
 <li>the <a href="https://gitlab.maths.lu.se/robertk/coupling">code repository</a></li>
 <li><a href="/research/upload/2024-02-06-pint_slides.pdf">slides</a> from my talk at PinT 2024</li>
 <li>my <a href="/research/upload/2023_essence_poster.pdf">poster</a> at the Swedish e-Science conference 2023</li>
@@ -541,6 +544,6 @@ For this purpose, I have developed a Python implementation for coupled surface-s
 
 		<footer></footer>
 
-		<!-- This page `/blog/2024/richards-swe-coupling/` was built on 2025-04-13T17:39:19.443Z -->
+		<!-- This page `/blog/2024/richards-swe-coupling/` was built on 2025-05-15T05:17:32.474Z -->
 	</body>
 </html>
