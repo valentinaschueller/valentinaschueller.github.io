@@ -4,12 +4,36 @@
 	<subtitle>PhD Student in Computational Science at Lund University.</subtitle>
 	<link href="https://valentinaschueller.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://valentinaschueller.github.io/"/>
-	<updated>2025-03-23T00:00:00Z</updated>
+	<updated>2025-07-11T00:00:00Z</updated>
 	<id>https://valentinaschueller.github.io/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Toy Examples with ClimaCoupler.jl</title>
+		<link href="https://valentinaschueller.github.io/blog/2025/clima-coupling/"/>
+		<updated>2025-07-11T00:00:00Z</updated>
+		<id>https://valentinaschueller.github.io/blog/2025/clima-coupling/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;I aim to have one short summary post for each of my active/finished research projects. This is one of them.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;After hearing &lt;a href=&quot;https://valeriabarra.org/&quot;&gt;Valeria Barra&#39;s&lt;/a&gt; talk at PASC 2024, I became interested in playing around with the coupler developed as part of the Climate Modeling Alliance (&lt;a href=&quot;https://clima.caltech.edu/&quot;&gt;CliMA&lt;/a&gt;).
+It explicitly supports checkpointing, which is the coupler-side feature that makes iterative coupling algorithms fairly straightforward to implement.&lt;/p&gt;
+&lt;p&gt;These are the questions I work on with this project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Modeling &amp;amp; Analysis: What is a good toy model to explain waveform relaxation convergence rates I observe in EC-Earth? Which convergence rates can I obtain theoretically (and under which assumptions)?&lt;/li&gt;
+&lt;li&gt;Numerical Experiments: How do discretization choices and model complexity affect the convergence rates? Do these fit the theoretical analysis?&lt;/li&gt;
+&lt;li&gt;Software Development: What design and implementation choices in CliMA and ClimaCoupler.jl can I make use of?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See also:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;my &lt;a href=&quot;https://github.com/valentinaschueller/clima-playground&quot;&gt;code on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2025-06-27_DD29.pdf&quot;&gt;slides&lt;/a&gt; from my talk at DD29&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Das trügerische Gedächtnis</title>

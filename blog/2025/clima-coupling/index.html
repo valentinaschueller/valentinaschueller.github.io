@@ -3,13 +3,180 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “research”</title>
+		<title>Toy Examples with ClimaCoupler.jl</title>
 		<meta name="description" content="PhD Student in Computational Science at Lund University.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Valentina Schüller">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Valentina Schüller">
 		<meta name="generator" content="Eleventy v2.0.1">
 		
-		<style>.postlist { counter-reset: start-from 5 }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 /* Defaults */
 :root {
@@ -330,44 +497,42 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			<a rel="me" href="https://mastodon.social/@cashbagage"></a>
+			
+<h1>Toy Examples with ClimaCoupler.jl</h1>
 
-<h1>Tagged “research”</h1>
+<ul class="post-metadata">
+	<li><time datetime="2025-07-11">11 July 2025</time></li>
+</ul>
+<ul class="post-metadata">
+	<li><a href="/tags/research/" class="post-tag">research</a>, </li>
+	<li><a href="/tags/english/" class="post-tag">english</a></li>
+</ul>
 
-
-
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/blog/2025/clima-coupling/" class="postlist-link">Toy Examples with ClimaCoupler.jl</a>
-		<time class="postlist-date" datetime="2025-07-11">July 2025</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/2024/scm-coupling/" class="postlist-link">Coupling algorithms in the EC-Earth AOSCM</a>
-		<time class="postlist-date" datetime="2024-06-01">June 2024</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/2024/richards-swe-coupling/" class="postlist-link">Coupled groundwater-surface flows</a>
-		<time class="postlist-date" datetime="2024-03-01">March 2024</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/2023/oscillator-example/" class="postlist-link">The oscillator example for coupling algorithms</a>
-		<time class="postlist-date" datetime="2023-10-01">October 2023</time>
-	</li>
-
-</ol>
+<blockquote>
+<p><em>I aim to have one short summary post for each of my active/finished research projects. This is one of them.</em></p>
+</blockquote>
+<p>After hearing <a href="https://valeriabarra.org/">Valeria Barra's</a> talk at PASC 2024, I became interested in playing around with the coupler developed as part of the Climate Modeling Alliance (<a href="https://clima.caltech.edu/">CliMA</a>).
+It explicitly supports checkpointing, which is the coupler-side feature that makes iterative coupling algorithms fairly straightforward to implement.</p>
+<p>These are the questions I work on with this project:</p>
+<ul>
+<li>Modeling &amp; Analysis: What is a good toy model to explain waveform relaxation convergence rates I observe in EC-Earth? Which convergence rates can I obtain theoretically (and under which assumptions)?</li>
+<li>Numerical Experiments: How do discretization choices and model complexity affect the convergence rates? Do these fit the theoretical analysis?</li>
+<li>Software Development: What design and implementation choices in CliMA and ClimaCoupler.jl can I make use of?</li>
+</ul>
+<p>See also:</p>
+<ul>
+<li>my <a href="https://github.com/valentinaschueller/clima-playground">code on GitHub</a></li>
+<li><a href="/research/upload/2025-06-27_DD29.pdf">slides</a> from my talk at DD29</li>
+</ul>
 
 
-<p>See <a href="/tags/">all tags</a>.</p>
-
+<ul class="links-nextprev"><li>Previous: <a href="/blog/2025/das-trugerische-gedachtnis/">Das trügerische Gedächtnis</a></li>
+</ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/tags/research/` was built on 2025-07-12T10:59:34.783Z -->
+		<!-- This page `/blog/2025/clima-coupling/` was built on 2025-07-12T10:59:34.782Z -->
 	</body>
 </html>
