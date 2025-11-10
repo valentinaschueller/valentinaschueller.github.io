@@ -4,12 +4,37 @@
 	<subtitle>PhD Student in Computational Science at Lund University.</subtitle>
 	<link href="https://valentinaschueller.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://valentinaschueller.github.io/"/>
-	<updated>2025-07-11T00:00:00Z</updated>
+	<updated>2025-11-10T00:00:00Z</updated>
 	<id>https://valentinaschueller.github.io/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>An Energy Efficiency Perspective on Coupled Models</title>
+		<link href="https://valentinaschueller.github.io/blog/2025/energy-efficiency/"/>
+		<updated>2025-11-10T00:00:00Z</updated>
+		<id>https://valentinaschueller.github.io/blog/2025/energy-efficiency/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;I aim to have one short summary post for each of my active/finished research projects. This is one of them.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As global electricity demand rises, there has been a push for energy awareness in high performance computing and numerical method development.
+This requires users to know about power consumption of their codes and how they can affect it without
+compromising on accuracy and wallclock time.
+Climate simulations are energy-intensive coupled simulations, affected by static and dynamic load imbalances both in
+and between the components.&lt;/p&gt;
+&lt;p&gt;In this project, we particularly investigate whether dynamic frequency and voltage scaling (DVFS) is a viable method to reduce energy use for coupled simulations with dynamic load imbalance.
+We plan to run small-scale simulations with memory-bound node-level microbenchmarks on EuroHPC clusters.
+The aim is to systematically study how energy efficiency can be affected with MERIC, which allows changing CPU frequency and voltage at runtime (and how this differs from optimizing for time to solution).
+As real-world cases, I plan to look at exemplary runs with &lt;a href=&quot;https://ec-earth.org/&quot;&gt;EC-Earth 4&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See also:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;a href=&quot;https://code.it4i.cz/vys0053/meric&quot;&gt;MERIC&lt;/a&gt; code on IT4I&#39;s Gitlab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; &lt;a href=&quot;https://www.maths.lu.se/staff/philipp-birken&quot;&gt;Philipp Birken&lt;/a&gt;; &lt;a href=&quot;https://www.uu.se/en/contact-and-organisation/staff?query=N23-1275&quot;&gt;Roman Iakymchuk&lt;/a&gt; (Uppsala University); &lt;a href=&quot;https://orcid.org/0000-0001-7849-2744&quot;&gt;Ondřej Vysocký&lt;/a&gt; (VSB – Technical University of Ostrava).&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Toy Examples with ClimaCoupler.jl</title>

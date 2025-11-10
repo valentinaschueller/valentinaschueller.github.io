@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Toy Examples with ClimaCoupler.jl</title>
+		<title>An Energy Efficiency Perspective on Coupled Models</title>
 		<meta name="description" content="PhD Student in Computational Science at Lund University.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Valentina Schüller">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Valentina Schüller">
@@ -498,10 +498,10 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Toy Examples with ClimaCoupler.jl</h1>
+<h1>An Energy Efficiency Perspective on Coupled Models</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2025-07-11">11 July 2025</time></li>
+	<li><time datetime="2025-11-10">10 November 2025</time></li>
 </ul>
 <ul class="post-metadata">
 	<li><a href="/tags/research/" class="post-tag">research</a>, </li>
@@ -511,29 +511,29 @@ h2 + .header-anchor {
 <blockquote>
 <p><em>I aim to have one short summary post for each of my active/finished research projects. This is one of them.</em></p>
 </blockquote>
-<p>After hearing <a href="https://valeriabarra.org/">Valeria Barra's</a> talk at PASC 2024, I became interested in playing around with the coupler developed as part of the Climate Modeling Alliance (<a href="https://clima.caltech.edu/">CliMA</a>).
-It explicitly supports checkpointing, which is the coupler-side feature that makes iterative coupling algorithms fairly straightforward to implement.</p>
-<p>These are the questions I work on with this project:</p>
-<ul>
-<li>Modeling &amp; Analysis: What is a good toy model to explain waveform relaxation convergence rates I observe in EC-Earth? Which convergence rates can I obtain theoretically (and under which assumptions)?</li>
-<li>Numerical Experiments: How do discretization choices and model complexity affect the convergence rates? Do these fit the theoretical analysis?</li>
-<li>Software Development: What design and implementation choices in CliMA and ClimaCoupler.jl can I make use of?</li>
-</ul>
+<p>As global electricity demand rises, there has been a push for energy awareness in high performance computing and numerical method development.
+This requires users to know about power consumption of their codes and how they can affect it without
+compromising on accuracy and wallclock time.
+Climate simulations are energy-intensive coupled simulations, affected by static and dynamic load imbalances both in
+and between the components.</p>
+<p>In this project, we particularly investigate whether dynamic frequency and voltage scaling (DVFS) is a viable method to reduce energy use for coupled simulations with dynamic load imbalance.
+We plan to run small-scale simulations with memory-bound node-level microbenchmarks on EuroHPC clusters.
+The aim is to systematically study how energy efficiency can be affected with MERIC, which allows changing CPU frequency and voltage at runtime (and how this differs from optimizing for time to solution).
+As real-world cases, I plan to look at exemplary runs with <a href="https://ec-earth.org/">EC-Earth 4</a>.</p>
 <p>See also:</p>
 <ul>
-<li>my <a href="https://github.com/valentinaschueller/clima-playground">code on GitHub</a></li>
-<li><a href="/research/upload/2025-06-27_DD29.pdf">slides</a> from my talk at DD29</li>
-<li>the <a href="/research/upload/2025_dd29-proceedings.pdf">article</a> we submitted to the DD29 proceedings</li>
+<li>the <a href="https://code.it4i.cz/vys0053/meric">MERIC</a> code on IT4I's Gitlab</li>
 </ul>
+<p><em><strong>Collaborators:</strong> <a href="https://www.maths.lu.se/staff/philipp-birken">Philipp Birken</a>; <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N23-1275">Roman Iakymchuk</a> (Uppsala University); <a href="https://orcid.org/0000-0001-7849-2744">Ondřej Vysocký</a> (VSB – Technical University of Ostrava).</em></p>
 
 
-<ul class="links-nextprev"><li>Previous: <a href="/blog/2025/das-trugerische-gedachtnis/">Das trügerische Gedächtnis</a></li><li>Next: <a href="/blog/2025/energy-efficiency/">An Energy Efficiency Perspective on Coupled Models</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/blog/2025/clima-coupling/">Toy Examples with ClimaCoupler.jl</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/blog/2025/clima-coupling/` was built on 2025-11-10T13:22:22.171Z -->
+		<!-- This page `/blog/2025/energy-efficiency/` was built on 2025-11-10T13:22:22.171Z -->
 	</body>
 </html>
