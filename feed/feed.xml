@@ -256,7 +256,7 @@ The goal here is to make the EC-Earth AOSCM a tool for coupling algorithm develo
 My master&#39;s thesis covers pure atmosphere-ocean coupling, right now we are working on cases including the sea ice model &lt;a href=&quot;https://doi.org/10.5281/zenodo.7534900&quot;&gt;SI3&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The results of this project are summarized in the following publication:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Schüller, V., Lemarié, F., Birken, P., and Blayo, E.: Quantifying Coupling Errors in Atmosphere-Ocean-Sea Ice Models: A Study of Iterative and Non-Iterative Approaches in the EC-Earth AOSCM, EGUsphere [preprint], &lt;a href=&quot;https://doi.org/10.5194/egusphere-2025-1342&quot;&gt;https://doi.org/10.5194/egusphere-2025-1342&lt;/a&gt;, 2025.&lt;/p&gt;
+&lt;p&gt;Schüller, V., Lemarié, F., Birken, P., and Blayo, E.: Quantifying coupling errors in atmosphere-ocean-sea ice models: A study of iterative and non-iterative approaches in the EC-Earth AOSCM, Geosci. Model Dev., 18, 9167–9187, &lt;a href=&quot;https://doi.org/10.5194/gmd-18-9167-2025&quot;&gt;https://doi.org/10.5194/gmd-18-9167-2025&lt;/a&gt;, 2025.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;See also:&lt;/p&gt;
 &lt;ul&gt;
