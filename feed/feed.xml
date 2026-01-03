@@ -4,12 +4,49 @@
 	<subtitle>PhD Student in Computational Science at Lund University.</subtitle>
 	<link href="https://valentinaschueller.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://valentinaschueller.github.io/"/>
-	<updated>2025-11-29T00:00:00Z</updated>
+	<updated>2026-01-03T00:00:00Z</updated>
 	<id>https://valentinaschueller.github.io/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Thoughts on Thinking</title>
+		<link href="https://valentinaschueller.github.io/blog/2026/thoughts-on-thinking/"/>
+		<updated>2026-01-03T00:00:00Z</updated>
+		<id>https://valentinaschueller.github.io/blog/2026/thoughts-on-thinking/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;... because I cannot think without language.&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I made this comment during a rhetorics workshop in early December, and it seemed completely obvious to me. One of the others in the room disagreed immediately, &amp;quot;I do not need language to think,&amp;quot; and this marked the beginning of a rabbit hole. I have spent the last couple of weeks thinking a lot about what it&#39;s like inside my brain (yikes!) and I even stumbled upon &amp;quot;Tal &amp;amp; Tanke&amp;quot;, a Swedish psycholinguistics book from the 1980s filled with essays on thought, language, and the ways in which they are related.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://valentinaschueller.github.io/blog/2026/thoughts-on-thinking/&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; I finished the book and, for my own sanity, I will wrap up this endeavor with a short summary of my new thoughts on thinking.&lt;/p&gt;
+&lt;p&gt;One important distinction I learned about is that between thinking (as in: reasoning, planning, or imagining), and the &lt;em&gt;verbalization&lt;/em&gt; of thought. Verbalization is a separate process and, obviously, requires language. Here are two examples from the book to illustrate this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Speaking three languages does not mean storing all my knowledge in three languages. A given thought I have does not a priori exist in only one language and needs to be translated into the others. Rather it can exist in a &amp;quot;meta language&amp;quot;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://valentinaschueller.github.io/blog/2026/thoughts-on-thinking/&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; and I verbalize (translate from) into German, English, or Swedish when expressing it in speech or writing.&lt;/li&gt;
+&lt;li&gt;Consider the figure below: Can you fold it into a cube? If yes, will the two arrows meet? I do not need language to solve this problem (folding the cube &amp;quot;in my head&amp;quot;). To verbalize how exactly my brain solves this is actually challenging (similar to accurately describing a movie scene). On a related note, I learned that &lt;a href=&quot;https://www.youtube.com/watch?v=W-ufyS7i5co&quot;&gt;thinking out loud&lt;/a&gt; apparently helps with solving text-based problems, while it does not with geometry problems.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://valentinaschueller.github.io/img/YoccJqrM4C-1200.avif 1200w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://valentinaschueller.github.io/img/YoccJqrM4C-1200.webp 1200w&quot;&gt;&lt;img alt=&quot;A cube?&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://valentinaschueller.github.io/img/YoccJqrM4C-1200.jpeg&quot; width=&quot;1200&quot; height=&quot;450&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Verbalizing a thought affects the thought: It can help with making it concrete and coherent.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://valentinaschueller.github.io/blog/2026/thoughts-on-thinking/&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt; After formulating it, I think I am more likely to remember the verbalized thought rather than the vague &amp;quot;thought in meta language&amp;quot; from before I said/wrote it for the first time. Now, note that I also remember melodies better when I sing them, and remember visuals better when I draw them myself. Is this the same phenomenon (expression makes thoughts memorable), or something else? I don&#39;t know!&lt;/p&gt;
+&lt;p&gt;I would say that the ideas I reason about the most, or which feel most like I am actively thinking, lend themselves to be expressed in words (or symbols), rather than in melodies or visuals. Similarly, most learning I do happens (at least in part) via language; reasoning about concepts I have acquired through language is hardly possible without language.&lt;/p&gt;
+&lt;p&gt;The author of the final chapter, Alvar Ellegård, makes the point that thinking provides us with a shortcut for solving problems: Instead of cutting out the figure above and trying to fold the cube, I can emulate the same steps in my head. If the shape is too complex to keep all the moving parts in working memory, thinking is not a shortcut; I&#39;ll be better off doing it with my hands.&lt;/p&gt;
+&lt;p&gt;The power of (human?) brains is that we can imagine more abstract concepts than physical movements or paper cutouts: To add 4+3, I could envision four and three apples and count all of them. But I don&#39;t do that anymore, I know the result, and I can work with the &lt;em&gt;concepts&lt;/em&gt; (here, numbers) 4 and 3 directly. I don&#39;t know the result for 54+23, but I can use the concepts 50, 20, 4, and 3, to derive it.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://valentinaschueller.github.io/blog/2026/thoughts-on-thinking/&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt; More generally: Language allows us to put labels on increasingly abstract and difficult concepts, and move on to use the labels as shorthands. A larger repertoire of labels enables more complex thought.&lt;/p&gt;
+&lt;p&gt;So, what would I say in hindsight? I would use a narrower definition of thinking (complex reasoning about abstract concepts), and a wide definition of language (sign language is language; mathematics is language). But yes, I need language for this kind of thinking.&lt;/p&gt;
+&lt;p&gt;⁠&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;The SoL library at LU is regularly selling old books for 10SEK and I like looking through them in the breaks of my Swedish class. &lt;a href=&quot;https://valentinaschueller.github.io/blog/2026/thoughts-on-thinking/&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;In &lt;a href=&quot;https://slim.computer/blug/going-nonverbal.html&quot;&gt;this blog post&lt;/a&gt; on struggling to put into words what&#39;s happening in her brain (which resonated a lot), Slim Lim refers to this pre-verbalized mass as &amp;quot;feeling-thought-plasma&amp;quot;. I have not explicitly written about the &amp;quot;feeling&amp;quot; aspect here (very unusual for me). While I would say that reasoning about emotions is thinking, I am not sure how much language plays a role in &lt;em&gt;perceiving&lt;/em&gt; them. I am quite sure that having a name for a feeling makes it easier for me to identify it in the future. Why? &lt;a href=&quot;https://valentinaschueller.github.io/blog/2026/thoughts-on-thinking/&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&amp;quot;Verbaliseringsprocessen liknar i viss mån en förståelseprocess&amp;quot; (Per Linell) &lt;a href=&quot;https://valentinaschueller.github.io/blog/2026/thoughts-on-thinking/&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Funny enough, this requires language: Apparently, if you force somebody to hold a pen between their lips while adding large numbers, it takes them longer. That&#39;s because for word-based thinking the brain still activates the speech muscles. &lt;a href=&quot;https://valentinaschueller.github.io/blog/2026/thoughts-on-thinking/&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Arctic Reflection(s)</title>
