@@ -4,12 +4,66 @@
 	<subtitle>PhD Student in Computational Science at Lund University.</subtitle>
 	<link href="https://valentinaschueller.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://valentinaschueller.github.io/"/>
-	<updated>2026-03-08T00:00:00Z</updated>
+	<updated>2026-04-12T00:00:00Z</updated>
 	<id>https://valentinaschueller.github.io/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Zen and the Art of AUR Package Maintenance</title>
+		<link href="https://valentinaschueller.github.io/blog/2026/aur-maintenance/"/>
+		<updated>2026-04-12T00:00:00Z</updated>
+		<id>https://valentinaschueller.github.io/blog/2026/aur-maintenance/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Hi Florian,
+ich habe gesehen, dass Du verantwortlich für preCICE im Arch Linux User Repository bist. Brauchst Du Unterstützung für das Update auf preCICE v3?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hallo Valentina,
+Gegenfrage: Möchtest Du die Maintenance des AUR-Pakets übernehmen?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Through a weird sequence of events, I became the maintainer of &lt;a href=&quot;https://precice.org&quot;&gt;preCICE&lt;/a&gt; in the AUR.
+This was two years ago: I had not done anything similar before, and I honestly had no idea what that would entail.
+But I figured I would somehow be able to figure it out, said yes, and here we are!&lt;/p&gt;
+&lt;p&gt;Every time the preCICE team releases a new version, one of them (usually &lt;a href=&quot;https://github.com/fsimonis&quot;&gt;Frédéric&lt;/a&gt;) flags the package as out-of-date, and I get an e-mail.
+Once that happens, I follow the same sequence of steps.
+It is not hard, but still infrequent enough that I keep forgetting what to do exactly.
+This might seem simple from the outside, but figuring out these steps was not trivial for me.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://valentinaschueller.github.io/blog/2026/aur-maintenance/&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;
+So, here is my standard operating procedure for upgrading preCICE in the AUR:&lt;/p&gt;
+&lt;p&gt;If you don&#39;t have it on your system yet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to: &lt;a href=&quot;https://aur.archlinux.org/packages/precice&quot;&gt;https://aur.archlinux.org/packages/precice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Log in, clone package using ssh&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Then:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;cd precice&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Update the &lt;code&gt;PKGBUILD&lt;/code&gt;:
+&lt;ol&gt;
+&lt;li&gt;Bump version number.&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;updpkgsums PKGBUILD&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Delete &lt;code&gt;src/build&lt;/code&gt; if it exists.&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;makepkg&lt;/code&gt; to make sure the package builds correctly.&lt;/li&gt;
+&lt;li&gt;Run tests: &lt;code&gt;ctest --test-dir src/build&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Generate new &lt;code&gt;.SRCINFO&lt;/code&gt;: &lt;code&gt;makepkg --printsrcinfo &amp;gt; .SRCINFO&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Commit changes (&amp;quot;Bump version to...&amp;quot;) and push.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Hier passiert keine Magic.&amp;quot; (&lt;a href=&quot;http://claudiawagner.info&quot;&gt;Claudia Wagner&lt;/a&gt;, 2017)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;It took me more than a year to learn about &lt;a href=&quot;https://man.archlinux.org/man/updpkgsums.8.en&quot;&gt;&lt;code&gt;updpkgsums&lt;/code&gt;&lt;/a&gt;... &lt;a href=&quot;https://valentinaschueller.github.io/blog/2026/aur-maintenance/&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Vignetten</title>
@@ -152,8 +206,10 @@ As real-world cases, I plan to look at exemplary runs with &lt;a href=&quot;http
 &lt;p&gt;See also:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;the &lt;a href=&quot;https://code.it4i.cz/vys0053/meric&quot;&gt;MERIC&lt;/a&gt; code on IT4I&#39;s Gitlab&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/precice/precice/issues/2544&quot;&gt;how I want to use preCICE&lt;/a&gt; in this context&lt;/li&gt;
+&lt;li&gt;the &lt;a href=&quot;https://gitlab.maths.lu.se/valentinaschueller/timeadaptiveqnwr&quot;&gt;proof-of-concept project&lt;/a&gt; where I try all of this&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; &lt;a href=&quot;https://www.maths.lu.se/staff/philipp-birken&quot;&gt;Philipp Birken&lt;/a&gt;; &lt;a href=&quot;https://www.uu.se/en/contact-and-organisation/staff?query=N23-1275&quot;&gt;Roman Iakymchuk&lt;/a&gt; (Uppsala University); &lt;a href=&quot;https://orcid.org/0000-0001-7849-2744&quot;&gt;Ondřej Vysocký&lt;/a&gt; (VSB – Technical University of Ostrava).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; &lt;a href=&quot;https://www.maths.lu.se/staff/philipp-birken&quot;&gt;Philipp Birken&lt;/a&gt;; &lt;a href=&quot;https://www.uu.se/en/contact-and-organisation/staff?query=N23-1275&quot;&gt;Roman Iakymchuk&lt;/a&gt; (Uppsala University); &lt;a href=&quot;https://orcid.org/0000-0001-7849-2744&quot;&gt;Ondřej Vysocký&lt;/a&gt; (VSB – Technical University of Ostrava); the preCICE group, in particular &lt;a href=&quot;https://www.cs.cit.tum.de/sccs/personen/frederic-simonis/&quot;&gt;Frédéric Simonis&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -177,8 +233,9 @@ It explicitly supports checkpointing, which is the coupler-side feature that mak
 &lt;ul&gt;
 &lt;li&gt;my &lt;a href=&quot;https://github.com/valentinaschueller/clima-playground&quot;&gt;code on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2025-06-27_DD29.pdf&quot;&gt;slides&lt;/a&gt; from my talk at DD29&lt;/li&gt;
-&lt;li&gt;the &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2025_dd29-proceedings.pdf&quot;&gt;article&lt;/a&gt; we submitted to the DD29 proceedings&lt;/li&gt;
+&lt;li&gt;the &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2025_dd29-proceedings.pdf&quot;&gt;article&lt;/a&gt; that will appear in the DD29 proceedings&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; &lt;a href=&quot;https://www.maths.lu.se/staff/philipp-birken&quot;&gt;Philipp Birken&lt;/a&gt;, &lt;a href=&quot;https://portal.research.lu.se/en/persons/hanna-kjellson/&quot;&gt;Hanna Kjellson&lt;/a&gt;, &lt;a href=&quot;https://liudi-lu.github.io&quot;&gt;Liu-Di Lu&lt;/a&gt; (Lund University); the CliMA community, in particular &lt;a href=&quot;https://github.com/juliasloan25&quot;&gt;Julia Sloan&lt;/a&gt; and &lt;a href=&quot;https://github.com/jefftyoder&quot;&gt;Jeff Yoder&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -365,6 +422,7 @@ My master&#39;s thesis covers pure atmosphere-ocean coupling, right now we are w
 &lt;li&gt;the corresponding &lt;a href=&quot;https://github.com/valentinaschueller/ece-scm-coupling&quot;&gt;GitHub repository&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;my &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2024_pasc_poster.pdf&quot;&gt;poster&lt;/a&gt; at PASC24&lt;/li&gt;
 &lt;li&gt;my &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2023_msc-thesis.pdf&quot;&gt;master&#39;s thesis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://portal.research.lu.se/en/persons/anna-rockstroh/&quot;&gt;Anna Rockstroh&lt;/a&gt;&#39;s &lt;a href=&quot;https://lup.lub.lu.se/student-papers/search/publication/9183501&quot;&gt;master&#39;s thesis&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; &lt;a href=&quot;https://www.maths.lu.se/staff/philipp-birken&quot;&gt;Philipp Birken&lt;/a&gt;; &lt;a href=&quot;https://membres-ljk.imag.fr/Florian.Lemarie/&quot;&gt;Florian Lemarié&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://membres-ljk.imag.fr/Eric.Blayo/&quot;&gt;Eric Blayo&lt;/a&gt; (&lt;a href=&quot;https://team.inria.fr/airsea/en/&quot;&gt;AIRSEA Group&lt;/a&gt;, INRIA Grenoble); &lt;a href=&quot;https://www.su.se/english/research/research-groups/dynamic-meteorology&quot;&gt;Dynamic Meteorology Group at MISU&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>

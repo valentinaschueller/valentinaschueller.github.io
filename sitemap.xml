@@ -72,12 +72,12 @@
 	</url>
 	
 	<url>
-		<loc>https://valentinaschueller.github.io/tags/english/</loc>
+		<loc>https://valentinaschueller.github.io/tags/research/</loc>
 		<lastmod>2024-12-29</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://valentinaschueller.github.io/tags/research/</loc>
+		<loc>https://valentinaschueller.github.io/tags/english/</loc>
 		<lastmod>2024-12-29</lastmod>
 	</url>
 	
@@ -114,5 +114,10 @@
 	<url>
 		<loc>https://valentinaschueller.github.io/blog/2026/vignetten/</loc>
 		<lastmod>2026-03-08</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://valentinaschueller.github.io/blog/2026/aur-maintenance/</loc>
+		<lastmod>2026-04-12</lastmod>
 	</url>
 </urlset>
