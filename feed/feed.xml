@@ -4,12 +4,47 @@
 	<subtitle>PhD Student in Computational Science at Lund University.</subtitle>
 	<link href="https://valentinaschueller.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://valentinaschueller.github.io/"/>
-	<updated>2026-04-12T00:00:00Z</updated>
+	<updated>2026-07-07T00:00:00Z</updated>
 	<id>https://valentinaschueller.github.io/</id>
 	<author>
 		<name></name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Calling PAPI from Python in 2026</title>
+		<link href="https://valentinaschueller.github.io/blog/2026/libpapi-python/"/>
+		<updated>2026-07-07T00:00:00Z</updated>
+		<id>https://valentinaschueller.github.io/blog/2026/libpapi-python/</id>
+		<content type="html">&lt;p&gt;I tried calling the PAPI high-level API from Python for &lt;a href=&quot;https://valentinaschueller.github.io/blog/2025/energy-efficiency&quot;&gt;one of my projects&lt;/a&gt;.
+Naturally, I looked if someone else has done this before and found &lt;a href=&quot;https://flozz.github.io/pypapi/&quot;&gt;PyPAPI&lt;/a&gt;, developed by &lt;a href=&quot;https://www.flozz.fr&quot;&gt;Fabien / FLOZz&lt;/a&gt;.
+It took me a bit too long to realize that&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/flozz/pypapi#end-of-life-notice&quot;&gt;he had stopped maintaining it&lt;/a&gt; and&lt;/li&gt;
+&lt;li&gt;this was the reason for me getting output files that had some unexpected structure (compared to instrumenting some C++ code on the same machine).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I confirmed this with him: python-papi &amp;quot;is shipped with its own copy of PAPI&amp;quot;, &amp;quot;you may find a &lt;code&gt;_papi.abi3.so&lt;/code&gt; file in the wheel package&amp;quot;.
+(Thanks for being so responsive, Fabien!)
+The PAPI version in PyPAPI is outdated, which was causing the unexpected structure of the output files.&lt;/p&gt;
+&lt;p&gt;Anyway, at the start of this year I had learned how to call shared libraries from Python using &lt;a href=&quot;https://docs.python.org/3/library/ctypes.html&quot;&gt;ctypes&lt;/a&gt;, so I actually managed to quickly fix this myself.
+Here is how you can call PAPI&#39;s high-level API by directly loading &lt;code&gt;libpapi.so&lt;/code&gt; in Python:&lt;/p&gt;
+&lt;pre class=&quot;language-py&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; ctypes
+
+libpapi &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ctypes&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cdll&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;LoadLibrary&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;libpapi.so&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# convert the string to bytes so that it is represented correctly&lt;/span&gt;
+region_name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;test&quot;&lt;/span&gt;
+region_name_buffer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; ctypes&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;create_string_buffer&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;region_name&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;encode&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+libpapi&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;PAPI_hl_region_begin&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;region_name_buffer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# do your thing&lt;/span&gt;
+
+libpapi&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;PAPI_hl_region_end&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;region_name_buffer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For other PAPI functions, &lt;a href=&quot;https://github.com/icl-utk-edu/papi/wiki/&quot;&gt;check their Wiki&lt;/a&gt;.
+Passing integers should work without problems, and for strings as above, just use &lt;code&gt;encode()&lt;/code&gt; and &lt;code&gt;create_string_buffer()&lt;/code&gt;.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Zen and the Art of AUR Package Maintenance</title>
