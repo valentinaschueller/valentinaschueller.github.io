@@ -90,6 +90,12 @@ So, here is my standard operating procedure for upgrading preCICE in the AUR:&lt
 &lt;blockquote&gt;
 &lt;p&gt;&amp;quot;Hier passiert keine Magic.&amp;quot; (&lt;a href=&quot;http://claudiawagner.info&quot;&gt;Claudia Wagner&lt;/a&gt;, 2017)&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Update (11/8/26):&lt;/strong&gt;
+If you manage more than one package, this might become tedious/repetitive.
+Of course, somebody has had that problem and &lt;a href=&quot;https://docs.renovatebot.com/user-stories/maintaining-aur-packages-with-renovate/&quot;&gt;solved it&lt;/a&gt;.
+Their workflow uses the &lt;a href=&quot;https://github.com/apps/renovate&quot;&gt;Renovate&lt;/a&gt; bot and GitHub actions to automatically check for new versions, update the &lt;code&gt;PKGBUILD&lt;/code&gt; and &lt;code&gt;.SRCINFO&lt;/code&gt;, and publish the new updates to the AUR.
+Thank you to Robert/fuero for pointing this out!&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot;&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
