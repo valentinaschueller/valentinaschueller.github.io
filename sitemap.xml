@@ -67,17 +67,22 @@
 	</url>
 	
 	<url>
-		<loc>https://valentinaschueller.github.io/tags/research/</loc>
-		<lastmod>2024-12-29</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://valentinaschueller.github.io/tags/english/</loc>
 		<lastmod>2024-12-29</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://valentinaschueller.github.io/tags/deutsch/</loc>
+		<lastmod>2024-12-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://valentinaschueller.github.io/tags/research/</loc>
+		<lastmod>2024-12-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://valentinaschueller.github.io/tags/svenska/</loc>
 		<lastmod>2024-12-29</lastmod>
 	</url>
 	
@@ -124,5 +129,10 @@
 	<url>
 		<loc>https://valentinaschueller.github.io/blog/2026/libpapi-python/</loc>
 		<lastmod>2026-07-07</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://valentinaschueller.github.io/blog/2026/far-i-hatten/</loc>
+		<lastmod>2026-08-23</lastmod>
 	</url>
 </urlset>
