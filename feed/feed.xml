@@ -389,13 +389,13 @@ Climate simulations are energy-intensive coupled simulations, affected by static
 and between the components.&lt;/p&gt;
 &lt;p&gt;In this project, we particularly investigate whether dynamic frequency and voltage scaling (DVFS) is a viable method to reduce energy use for coupled simulations with dynamic load imbalance.
 We plan to run small-scale simulations with memory-bound node-level microbenchmarks on EuroHPC clusters.
-The aim is to systematically study how energy efficiency can be affected with MERIC, which allows changing CPU frequency and voltage at runtime (and how this differs from optimizing for time to solution).
+The aim is to systematically study how energy efficiency can be affected with &lt;a href=&quot;https://code.it4i.cz/energy-efficiency/meric-suite/meric&quot;&gt;MERIC&lt;/a&gt;, which allows changing CPU frequency and voltage at runtime (and how this differs from optimizing for time to solution).
 As real-world cases, I plan to look at exemplary runs with &lt;a href=&quot;https://ec-earth.org/&quot;&gt;EC-Earth 4&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;See also:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;the &lt;a href=&quot;https://code.it4i.cz/vys0053/meric&quot;&gt;MERIC&lt;/a&gt; code on IT4I&#39;s Gitlab&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/precice/precice/issues/2544&quot;&gt;how I want to use preCICE&lt;/a&gt; in this context&lt;/li&gt;
-&lt;li&gt;the &lt;a href=&quot;https://gitlab.maths.lu.se/valentinaschueller/timeadaptiveqnwr&quot;&gt;proof-of-concept project&lt;/a&gt; where I try all of this&lt;/li&gt;
+&lt;li&gt;the poster Ondřej Vysocký will present at SC26 (&lt;a href=&quot;https://sc26.conference-program.com/presentation/?id=rpost165&amp;amp;sess=sess313&quot;&gt;session link&lt;/a&gt;, &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2026_SC26_poster.pdf&quot;&gt;poster PDF&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/precice/precice/issues/2544&quot;&gt;how I want to use preCICE&lt;/a&gt; in this context;&lt;/li&gt;
+&lt;li&gt;the &lt;a href=&quot;https://gitlab.maths.lu.se/valentinaschueller/timeadaptiveqnwr&quot;&gt;proof-of-concept project&lt;/a&gt; where I try all of this!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; &lt;a href=&quot;https://www.maths.lu.se/staff/philipp-birken&quot;&gt;Philipp Birken&lt;/a&gt;; &lt;a href=&quot;https://www.uu.se/en/contact-and-organisation/staff?query=N23-1275&quot;&gt;Roman Iakymchuk&lt;/a&gt; (Uppsala University); &lt;a href=&quot;https://orcid.org/0000-0001-7849-2744&quot;&gt;Ondřej Vysocký&lt;/a&gt; (VSB – Technical University of Ostrava); the preCICE group, in particular &lt;a href=&quot;https://www.cs.cit.tum.de/sccs/personen/frederic-simonis/&quot;&gt;Frédéric Simonis&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
