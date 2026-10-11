@@ -420,7 +420,7 @@ It explicitly supports checkpointing, which is the coupler-side feature that mak
 &lt;p&gt;See also:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;my &lt;a href=&quot;https://github.com/valentinaschueller/clima-playground&quot;&gt;code on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;the &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2025_dd29-proceedings.pdf&quot;&gt;article&lt;/a&gt; that will appear in the DD29 proceedings&lt;/li&gt;
+&lt;li&gt;the &lt;a href=&quot;https://valentinaschueller.github.io/blog/2025/clima-coupling/%5B/research/upload/2025_dd29-proceedings.pdf%5D(https:/www.ddm.org/DD29/proceedings/ID21_pages.pdf)&quot;&gt;article&lt;/a&gt; that will appear in the DD29 proceedings&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2026-06-30_Equadiff.pdf&quot;&gt;slides&lt;/a&gt; from my most recent talk at Equadiff 2026&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; &lt;a href=&quot;https://www.maths.lu.se/staff/philipp-birken&quot;&gt;Philipp Birken&lt;/a&gt;, &lt;a href=&quot;https://portal.research.lu.se/en/persons/hanna-kjellson/&quot;&gt;Hanna Kjellson&lt;/a&gt;, &lt;a href=&quot;https://liudi-lu.github.io&quot;&gt;Liu-Di Lu&lt;/a&gt; (Lund University); the CliMA community, in particular &lt;a href=&quot;https://github.com/juliasloan25&quot;&gt;Julia Sloan&lt;/a&gt; and &lt;a href=&quot;https://github.com/jefftyoder&quot;&gt;Jeff Yoder&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -598,20 +598,20 @@ This way, all my references were missing from the generated PDF. It took me quit
 &lt;p&gt;I started working with the EC-Earth coupled atmosphere–ocean single-column model (AOSCM, &lt;a href=&quot;https://doi.org/10.5194/gmd-11-4117-2018&quot;&gt;Hartung et al., 2018&lt;/a&gt;) during my master&#39;s thesis.
 This is a version of the &lt;a href=&quot;https://ec-earth.org/&quot;&gt;EC-Earth global climate model&lt;/a&gt; which is useful for model development, particularly regarding physics parameterizations in the atmospheric and oceanic boundary layers.
 The goal here is to make the EC-Earth AOSCM a tool for coupling algorithm development in climate models.&lt;/p&gt;
-&lt;p&gt;I have created scripts and workflows to study the impact of different coupling algorithms on model output.
-My master&#39;s thesis covers pure atmosphere-ocean coupling, right now we are working on cases including the sea ice model &lt;a href=&quot;https://doi.org/10.5281/zenodo.7534900&quot;&gt;SI3&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The results of this project are summarized in the following publication:&lt;/p&gt;
+&lt;p&gt;I created scripts and workflows to study the impact of different coupling algorithms on model output.
+My &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2023_msc-thesis.pdf&quot;&gt;master&#39;s thesis&lt;/a&gt; covers pure atmosphere-ocean coupling, later we also included sea ice.
+We learned from this project that coupling errors can quickly affect model trajectories, especially if you have jumps in the model physics.&lt;/p&gt;
+&lt;p&gt;Most of the results are summarized in the following publication:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Schüller, V., Lemarié, F., Birken, P., and Blayo, E.: Quantifying coupling errors in atmosphere-ocean-sea ice models: A study of iterative and non-iterative approaches in the EC-Earth AOSCM, Geosci. Model Dev., 18, 9167–9187, &lt;a href=&quot;https://doi.org/10.5194/gmd-18-9167-2025&quot;&gt;https://doi.org/10.5194/gmd-18-9167-2025&lt;/a&gt;, 2025.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;Afterwards, I implemented the sea ice albedo fix we proposed in the paper in NEMO, and it has been part of EC-Earth since v4.1.8.
+You can see results from this change in &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2026_SCS_poster.pdf&quot;&gt;this poster&lt;/a&gt; I presented at SCS and EGU 2026.&lt;/p&gt;
 &lt;p&gt;See also:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;my &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2026_EGU_poster.pdf&quot;&gt;poster&lt;/a&gt; at EGU26&lt;/li&gt;
-&lt;li&gt;my &lt;a href=&quot;https://vimeo.com/1074569269/ee41c7d5f7&quot;&gt;talk at the ECMWF Coupling workshop 2025&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;the corresponding &lt;a href=&quot;https://github.com/valentinaschueller/ece-scm-coupling&quot;&gt;GitHub repository&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;my &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2024_pasc_poster.pdf&quot;&gt;poster&lt;/a&gt; at PASC24&lt;/li&gt;
-&lt;li&gt;my &lt;a href=&quot;https://valentinaschueller.github.io/research/upload/2023_msc-thesis.pdf&quot;&gt;master&#39;s thesis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://portal.research.lu.se/en/persons/anna-rockstroh/&quot;&gt;Anna Rockstroh&lt;/a&gt;&#39;s &lt;a href=&quot;https://lup.lub.lu.se/student-papers/search/publication/9183501&quot;&gt;master&#39;s thesis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;my &lt;a href=&quot;https://vimeo.com/1074569269/ee41c7d5f7&quot;&gt;talk at the ECMWF Coupling workshop 2025&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;the corresponding &lt;a href=&quot;https://github.com/valentinaschueller/ece-scm-coupling&quot;&gt;GitHub repository&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://portal.research.lu.se/en/persons/anna-rockstroh/&quot;&gt;Anna Rockstroh&lt;/a&gt;&#39;s &lt;a href=&quot;https://lup.lub.lu.se/student-papers/search/publication/9183501&quot;&gt;master&#39;s thesis&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; &lt;a href=&quot;https://www.maths.lu.se/staff/philipp-birken&quot;&gt;Philipp Birken&lt;/a&gt;; &lt;a href=&quot;https://membres-ljk.imag.fr/Florian.Lemarie/&quot;&gt;Florian Lemarié&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://membres-ljk.imag.fr/Eric.Blayo/&quot;&gt;Eric Blayo&lt;/a&gt; (&lt;a href=&quot;https://team.inria.fr/airsea/en/&quot;&gt;AIRSEA Group&lt;/a&gt;, INRIA Grenoble); &lt;a href=&quot;https://www.su.se/english/research/research-groups/dynamic-meteorology&quot;&gt;Dynamic Meteorology Group at MISU&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </content>
